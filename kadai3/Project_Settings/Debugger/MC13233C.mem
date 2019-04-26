@@ -1,0 +1,300 @@
+// Memory Configuration File
+//
+// Description:
+//  A memory configuration file contains commands that define the legally accessible
+//  areas of memory for your specific part.
+//
+// Derivative:
+// Freescale MC13233C
+//
+
+//--------------------------------  Ram memory space -----------------------------------
+
+// Port A Registers
+// range      0x0000 0x0000 1 ReadWrite                                // PTAD
+// range      0x0001 0x0001 1 ReadWrite                                // PTADD
+
+// Port B Registers
+// range      0x0002 0x0002 1 ReadWrite                                // PTBD
+// range      0x0003 0x0003 1 ReadWrite                                // PTBDD
+
+// Port C Registers
+// range      0x0004 0x0004 1 ReadWrite                                // PTCD
+// range      0x0005 0x0005 1 ReadWrite                                // PTCDD
+
+// Port D Registers
+// range      0x0006 0x0006 1 ReadWrite                                // PTDD
+// range      0x0007 0x0007 1 ReadWrite                                // PTDDD
+
+// Timer/Pulse-Width Modulator 1 Registers
+// range      0x0008 0x0008 1 ReadWrite                                // TPM1SC
+// range      0x0009 0x000A 2 ReadWrite                                // TPM1CNT(ReadWrite) / TPM1CNTH(ReadWrite) / TPM1CNTL
+// range      0x000B 0x000C 2 ReadWrite                                // TPM1MOD(ReadWrite) / TPM1MODH(ReadWrite) / TPM1MODL
+// range      0x000D 0x000D 1 ReadWrite                                // TPM1C0SC
+// range      0x000E 0x000F 2 ReadWrite                                // TPM1C0V(ReadWrite) / TPM1C0VH(ReadWrite) / TPM1C0VL
+
+// Timer/Pulse-Width Modulator 2 Registers
+// range      0x0010 0x0010 1 ReadWrite                                // TPM2SC
+// range      0x0011 0x0012 2 ReadWrite                                // TPM2CNT(ReadWrite) / TPM2CNTH(ReadWrite) / TPM2CNTL
+// range      0x0013 0x0014 2 ReadWrite                                // TPM2MOD(ReadWrite) / TPM2MODH(ReadWrite) / TPM2MODL
+// range      0x0015 0x0015 1 ReadWrite                                // TPM2C0SC
+// range      0x0016 0x0017 2 ReadWrite                                // TPM2C0V(ReadWrite) / TPM2C0VH(ReadWrite) / TPM2C0VL
+
+// Timer/Pulse-Width Modulator 3 Registers
+// range      0x0018 0x0018 1 ReadWrite                                // TPM3SC
+// range      0x0019 0x001A 2 ReadWrite                                // TPM3CNT(ReadWrite) / TPM3CNTH(ReadWrite) / TPM3CNTL
+// range      0x001B 0x001C 2 ReadWrite                                // TPM3MOD(ReadWrite) / TPM3MODH(ReadWrite) / TPM3MODL
+// range      0x001D 0x001D 1 ReadWrite                                // TPM3C0SC
+// range      0x001E 0x001F 2 ReadWrite                                // TPM3C0V(ReadWrite) / TPM3C0VH(ReadWrite) / TPM3C0VL
+
+// Advanced Security Module Registers
+// range      0x0020 0x0020 1 ReadWrite                                // AES_CONTROL1
+// range      0x0021 0x0021 1 ReadWrite                                // AES_CONTROL2
+// range      0x0022 0x0022 1 ReadWrite                                // ASM_Data_0
+// range      0x0023 0x0023 1 ReadWrite                                // ASM_Data_1
+// range      0x0024 0x0024 1 ReadWrite                                // ASM_Data_2
+// range      0x0025 0x0025 1 ReadWrite                                // ASM_Data_3
+// range      0x0026 0x0026 1 ReadWrite                                // ASM_Data_4
+// range      0x0027 0x0027 1 ReadWrite                                // ASM_Data_5
+// range      0x0028 0x0028 1 ReadWrite                                // ASM_Data_6
+// range      0x0029 0x0029 1 ReadWrite                                // ASM_Data_7
+// range      0x002A 0x002A 1 ReadWrite                                // ASM_Data_8
+// range      0x002B 0x002B 1 ReadWrite                                // ASM_Data_9
+// range      0x002C 0x002C 1 ReadWrite                                // ASM_Data_A
+// range      0x002D 0x002D 1 ReadWrite                                // ASM_Data_B
+// range      0x002E 0x002E 1 ReadWrite                                // ASM_Data_C
+// range      0x002F 0x002F 1 ReadWrite                                // ASM_Data_D
+// range      0x0030 0x0030 1 ReadWrite                                // ASM_Data_E
+// range      0x0031 0x0031 1 ReadWrite                                // ASM_Data_F
+
+// Keyboard Interrupt (KBI1) Registers
+// range      0x0032 0x0032 1 ReadWrite                                // KBI1SC
+// range      0x0033 0x0033 1 ReadWrite                                // KBI1PE
+// range      0x0034 0x0034 1 ReadWrite                                // KBI1ES
+
+// Keyboard Interrupt (KBI2) Registers
+// range      0x0035 0x0035 1 ReadWrite                                // KBI2SC
+// range      0x0036 0x0036 1 ReadWrite                                // KBI2PE
+// range      0x0037 0x0037 1 ReadWrite                                // KBI2ES
+
+// Serial Communications Interface Registers
+// range      0x0038 0x0039 2 ReadWrite                                // SCIBD(ReadWrite) / SCIBDH(ReadWrite) / SCIBDL
+// range      0x003A 0x003A 1 ReadWrite                                // SCIC1
+// range      0x003B 0x003B 1 ReadWrite                                // SCIC2
+range      0x003C 0x003C 1 Read                                        // SCIS1
+// range      0x003D 0x003D 1 ReadWrite                                // SCIS2
+// range      0x003E 0x003E 1 ReadWrite                                // SCIC3
+// range      0x003F 0x003F 1 ReadWrite                                // SCID
+
+// IEEE 802.15.4 Transceiver Registers
+// range      0x0040 0x0040 1 ReadWrite                                // PHY_TXD_ADR_PNTR0
+// range      0x0041 0x0041 1 ReadWrite                                // PHY_TXD_ADR_PNTR1
+// range      0x0042 0x0042 1 ReadWrite                                // PHY_RXD_ADR_PNTR0
+// range      0x0043 0x0043 1 ReadWrite                                // PHY_RXD_ADR_PNTR1
+// range      0x0044 0x0044 1 ReadWrite                                // PHY_CNTRL1
+// range      0x0045 0x0045 1 ReadWrite                                // PHY_CNTRL2
+// range      0x0046 0x0046 1 ReadWrite                                // PHY_CNTRL3
+// range      0x0047 0x0047 1 ReadWrite                                // PHY_CNTRL4
+// range      0x0048 0x0048 1 ReadWrite                                // PHY_SRC_CNTRL
+// range      0x0049 0x0049 1 ReadWrite                                // PHY_SRC_ADDRS_SUM_DATA0
+// range      0x004A 0x004A 1 ReadWrite                                // PHY_SRC_ADDRS_SUM_DATA1
+// range      0x004B 0x004B 1 ReadWrite                                // PHY_RX_WTR_MARK
+// range      0x004C 0x004C 1 ReadWrite                                // PHY_RX_BYTE_COUNT
+// range      0x004D 0x004D 1 ReadWrite                                // PHY_STATUS1
+// range      0x004E 0x004E 1 ReadWrite                                // PHY_STATUS2
+reserved   0x004F 0x004F
+range      0x0050 0x0050 1 Read                                        // PHY_CCAFNL
+range      0x0051 0x0051 1 Read                                        // PHY_EVENT_TMR0
+range      0x0052 0x0052 1 Read                                        // PHY_EVENT_TMR1
+range      0x0053 0x0053 1 Read                                        // PHY_EVENT_TMR2
+range      0x0054 0x0054 1 Read                                        // PHY_TIMESTAMP0
+range      0x0055 0x0055 1 Read                                        // PHY_TIMESTAMP1
+range      0x0056 0x0056 1 Read                                        // PHY_TIMESTAMP2
+// range      0x0057 0x0057 1 ReadWrite                                // PHY_T3CMP0
+// range      0x0058 0x0058 1 ReadWrite                                // PHY_T3CMP1
+// range      0x0059 0x0059 1 ReadWrite                                // PHY_T3CMP2
+// range      0x005A 0x005A 1 ReadWrite                                // PHY_TC2_PRIME0
+// range      0x005B 0x005B 1 ReadWrite                                // PHY_TC2_PRIME1
+// range      0x005C 0x005C 1 ReadWrite                                // PHY_MACSHORTADDRS0
+// range      0x005D 0x005D 1 ReadWrite                                // PHY_MACSHORTADDRS1
+// range      0x005E 0x005E 1 ReadWrite                                // PHY_MACPANID0
+// range      0x005F 0x005F 1 ReadWrite                                // PHY_MACPANID1
+
+// Carrier Modulator Timer Registers
+// range      0x0060 0x0061 2 ReadWrite                                // CMTCG1(ReadWrite) / CMTCGH1(ReadWrite) / CMTCGL1
+// range      0x0062 0x0063 2 ReadWrite                                // CMTCG2(ReadWrite) / CMTCGH2(ReadWrite) / CMTCGL2
+// range      0x0064 0x0064 1 ReadWrite                                // CMTOC
+// range      0x0065 0x0065 1 ReadWrite                                // CMTMSC
+// range      0x0066 0x0067 2 ReadWrite                                // CMTCMD1(ReadWrite) / CMTCMD12(ReadWrite) / CMTCMD2
+// range      0x0068 0x0069 2 ReadWrite                                // CMTCMD3(ReadWrite) / CMTCMD34(ReadWrite) / CMTCMD4
+
+// IIC Registers
+// range      0x006A 0x006A 1 ReadWrite                                // IICA
+// range      0x006B 0x006B 1 ReadWrite                                // IICF
+// range      0x006C 0x006C 1 ReadWrite                                // IICC(ReadWrite) / IICC1(ReadWrite)
+// range      0x006D 0x006D 1 ReadWrite                                // IICS
+// range      0x006E 0x006E 1 ReadWrite                                // IICD
+// range      0x006F 0x006F 1 ReadWrite                                // IICC2
+
+// Serial Peripheral Interface Registers
+// range      0x0070 0x0070 1 ReadWrite                                // SPIC1
+// range      0x0071 0x0071 1 ReadWrite                                // SPIC2
+// range      0x0072 0x0072 1 ReadWrite                                // SPIBR
+range      0x0073 0x0073 1 Read                                        // SPIS
+reserved   0x0074 0x0074
+// range      0x0075 0x0075 1 ReadWrite                                // SPID
+
+// External Interrupt Request (IRQ) Pin Registers
+// range      0x0076 0x0076 1 ReadWrite                                // IRQSC
+reserved   0x0077 0x0077
+
+// Memory Management Unit
+// range      0x0078 0x0078 1 ReadWrite                                // PPAGE
+// range      0x0079 0x0079 1 ReadWrite                                // LAP2
+// range      0x007A 0x007A 1 ReadWrite                                // LAP1
+// range      0x007B 0x007B 1 ReadWrite                                // LAP0
+// range      0x007C 0x007C 1 ReadWrite                                // LWP
+// range      0x007D 0x007D 1 ReadWrite                                // LBP
+// range      0x007E 0x007E 1 ReadWrite                                // LB
+range      0x007F 0x007F 1 Write                                       // LAPAB
+
+// RAM
+range      0x0080 0x147F 1 ReadWrite
+reserved   0x1480 0x17FF
+
+// Reset and System Control Registers
+// range      0x1800 0x1800 1 ReadWrite                                // SRS
+range      0x1801 0x1801 1 Write                                       // SBDFR
+// range      0x1802 0x1802 1 ReadWrite                                // SOPT1
+// range      0x1803 0x1803 1 ReadWrite                                // SOPT2
+
+// Serial Communications Interface Registers
+// range      0x1804 0x1804 1 ReadWrite                                // SCIC4
+reserved   0x1805 0x1805
+
+// Reset and System Control Registers
+range      0x1806 0x1807 2 Read                                        // SDID(Read) / SDIDH(Read) / SDIDL
+// range      0x1808 0x1808 1 ReadWrite                                // SPMSC1
+// range      0x1809 0x1809 1 ReadWrite                                // SPMSC2
+reserved   0x180A 0x180A
+// range      0x180B 0x180B 1 ReadWrite                                // SPMSC3
+// range      0x180C 0x180C 1 ReadWrite                                // SOMC1
+// range      0x180D 0x180D 1 ReadWrite                                // SOMC2
+// range      0x180E 0x180E 1 ReadWrite                                // SCGC1
+// range      0x180F 0x180F 1 ReadWrite                                // SCGC2
+
+// Debug Module Registers
+// range      0x1810 0x1811 2 ReadWrite                                // DBGCA(ReadWrite) / DBGCAH(ReadWrite) / DBGCAL
+// range      0x1812 0x1813 2 ReadWrite                                // DBGCB(ReadWrite) / DBGCBH(ReadWrite) / DBGCBL
+// range      0x1814 0x1815 2 ReadWrite                                // DBGCC(ReadWrite) / DBGCCH(ReadWrite) / DBGCCL
+range      0x1816 0x1817 2 Read                                        // DBGF(Read) / DBGFH(Read) / DBGFL
+// range      0x1818 0x1818 1 ReadWrite                                // DBGCAX
+// range      0x1819 0x1819 1 ReadWrite                                // DBGCBX
+// range      0x181A 0x181A 1 ReadWrite                                // DBGCCX
+range      0x181B 0x181B 1 Read                                        // DBGFX
+// range      0x181C 0x181C 1 ReadWrite                                // DBGC
+// range      0x181D 0x181D 1 ReadWrite                                // DBGT
+range      0x181E 0x181E 1 Read                                        // DBGS
+range      0x181F 0x181F 1 Read                                        // DBGCNT
+
+// FLASH Memory Registers
+reserved   0x1820 0x1820
+range      0x1821 0x1821 1 Read                                        // FOPT
+reserved   0x1822 0x1822
+// range      0x1823 0x1823 1 ReadWrite                                // FCNFG
+// range      0x1824 0x1824 1 ReadWrite                                // FPROT
+// range      0x1825 0x1825 1 ReadWrite                                // FSTAT
+// range      0x1826 0x1826 1 ReadWrite                                // FCMD
+reserved   0x1827 0x1827
+
+// Real Time Counter Registers
+// range      0x1828 0x1828 1 ReadWrite                                // RTCSC
+range      0x1829 0x1829 1 Read                                        // RTCCNTL
+// range      0x182A 0x182A 1 ReadWrite                                // RTCMODL
+range      0x182B 0x182B 1 Read                                        // RTCCNTH
+// range      0x182C 0x182C 1 ReadWrite                                // RTCMODH
+reserved   0x182D 0x182F
+
+// Port A Registers
+// range      0x1830 0x1830 1 ReadWrite                                // PTAPE
+// range      0x1831 0x1831 1 ReadWrite                                // PTASE
+// range      0x1832 0x1832 1 ReadWrite                                // PTADS
+reserved   0x1833 0x1833
+
+// Port B Registers
+// range      0x1834 0x1834 1 ReadWrite                                // PTBPE
+// range      0x1835 0x1835 1 ReadWrite                                // PTBSE
+// range      0x1836 0x1836 1 ReadWrite                                // PTBDS
+reserved   0x1837 0x1837
+
+// Port C Registers
+// range      0x1838 0x1838 1 ReadWrite                                // PTCPE
+// range      0x1839 0x1839 1 ReadWrite                                // PTCSE
+// range      0x183A 0x183A 1 ReadWrite                                // PTCDS
+reserved   0x183B 0x183B
+
+// Port D Registers
+// range      0x183C 0x183C 1 ReadWrite                                // PTDPE
+// range      0x183D 0x183D 1 ReadWrite                                // PTDSE
+// range      0x183E 0x183E 1 ReadWrite                                // PTDDS
+reserved   0x183F 0x183F
+
+// IEEE 802.15.4 Transceiver Registers
+// range      0x1840 0x1840 1 ReadWrite                                // PHY_T1CMP0
+// range      0x1841 0x1841 1 ReadWrite                                // PHY_T1CMP1
+// range      0x1842 0x1842 1 ReadWrite                                // PHY_T1CMP2
+// range      0x1843 0x1843 1 ReadWrite                                // PHY_T2CMP0
+// range      0x1844 0x1844 1 ReadWrite                                // PHY_T2CMP1
+// range      0x1845 0x1845 1 ReadWrite                                // PHY_T2CMP2
+// range      0x1846 0x1846 1 ReadWrite                                // PHY_T4CMP0
+// range      0x1847 0x1847 1 ReadWrite                                // PHY_T4CMP1
+// range      0x1848 0x1848 1 ReadWrite                                // PHY_T4CMP2
+// range      0x1849 0x1849 1 ReadWrite                                // PHY_LO1_FRAC0
+// range      0x184A 0x184A 1 ReadWrite                                // PHY_LO1_FRAC1
+// range      0x184B 0x184B 1 ReadWrite                                // PHY_LO1_INT
+// range      0x184C 0x184C 1 ReadWrite                                // PHY_PA_PWR_CNTL
+// range      0x184D 0x184D 1 ReadWrite                                // PHY_MACLONGADDRS0
+// range      0x184E 0x184E 1 ReadWrite                                // PHY_MACLONGADDRS1
+// range      0x184F 0x184F 1 ReadWrite                                // PHY_MACLONGADDRS2
+// range      0x1850 0x1850 1 ReadWrite                                // PHY_MACLONGADDRS3
+// range      0x1851 0x1851 1 ReadWrite                                // PHY_MACLONGADDRS4
+// range      0x1852 0x1852 1 ReadWrite                                // PHY_MACLONGADDRS5
+// range      0x1853 0x1853 1 ReadWrite                                // PHY_MACLONGADDRS6
+// range      0x1854 0x1854 1 ReadWrite                                // PHY_MACLONGADDRS7
+// range      0x1855 0x1855 1 ReadWrite                                // PHY_MAXFRAMELENGTH
+// range      0x1856 0x1856 1 ReadWrite                                // PHY_RX_FRAME_FILTER
+// range      0x1857 0x1857 1 ReadWrite                                // PHY_MACFRAMEVER
+// range      0x1858 0x1858 1 ReadWrite                                // PHY_CCA_THRESHOLD
+// range      0x1859 0x1859 1 ReadWrite                                // PHY_CCA_OFFSET_CMP
+// range      0x185A 0x185A 1 ReadWrite                                // PHY_FSM
+// range      0x185B 0x185B 1 ReadWrite                                // PHY_INDIRECT_ACCESS_INDEX
+// range      0x185C 0x185C 1 ReadWrite                                // PHY_INDIRECT_ACCESS_DATA
+reserved   0x185D 0x185F
+
+// Timer/Pulse-Width Modulator 4 Registers
+// range      0x1860 0x1860 1 ReadWrite                                // TPM4SC
+// range      0x1861 0x1862 2 ReadWrite                                // TPM4CNT(ReadWrite) / TPM4CNTH(ReadWrite) / TPM4CNTL
+// range      0x1863 0x1864 2 ReadWrite                                // TPM4MOD(ReadWrite) / TPM4MODH(ReadWrite) / TPM4MODL
+// range      0x1865 0x1865 1 ReadWrite                                // TPM4C0SC
+// range      0x1866 0x1867 2 ReadWrite                                // TPM4C0V(ReadWrite) / TPM4C0VH(ReadWrite) / TPM4C0VL
+reserved   0x1868 0x207F
+
+//--------------------------------  Flash memory space -----------------------------------
+
+// FLASH
+range      f:0x00000  f:0x13FFF 1 ReadWrite
+
+//--------------------------------  Paged memory space -----------------------------------
+
+range    p:0x08000 p:0x0BFFF 1 readWrite
+reserved p:0x0C000 p:0x17FFF
+range    p:0x18000 p:0x1BFFF 1 readWrite
+reserved p:0x1C000 p:0x27FFF
+range    p:0x28000 p:0x2BFFF 1 readWrite
+reserved p:0x2C000 p:0x37FFF
+range    p:0x38000 p:0x3BFFF 1 readWrite
+reserved p:0x3C000 p:0x47FFF
+range    p:0x48000 p:0x4BFFF 1 readWrite
+
+// All reserved ranges read back 0xBABA...
+reservedchar 0xBA

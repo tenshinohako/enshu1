@@ -1,0 +1,32 @@
+#include <hidef.h> /* for EnableInterrupts macro */
+#include "derivative.h" /* include peripheral declarations */
+
+void init_device(void); /* additional device initialization */
+void main_control(void); /* for main loop */
+
+void main(void) {
+  EnableInterrupts;
+  /* include your code here */
+
+  init_device();
+  
+  for(;;) {
+	  main_control();
+    //__RESET_WATCHDOG();	/* feeds the dog */
+  } /* loop forever */
+  /* please make sure that you never leave main */
+}
+
+void init_device(void){
+	SPOT1_COPE = 0; //Disable Watchdog
+	
+	PTADD_PTADD0 = 1; //Direction set for LED1
+	PTADD_PTADD4 = 1; //Direction set for LED2
+	
+	PTAD_PTAD0 = 0; //LED1
+	PTAD_PTAD4 = 1; //LED2
+}
+
+void main_control(void){
+	
+}

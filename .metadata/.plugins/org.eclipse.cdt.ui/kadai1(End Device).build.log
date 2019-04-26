@@ -1,0 +1,71 @@
+
+**** Build of configuration MyWirelessApp Demo Beacon (End Device) for project kadai1(End Device) ****
+
+D:\Freescale\CW MCU v10.3\gnu\bin\mingw32-make -j8 pre-build main-build 
+'Precompile the .prm file'
+"D:\Freescale\CW MCU v10.3\eclipse\../MCU/prog/chc08.exe" -ArgFile"PLM\Source\Common\Sys\crt0.args" "D:/Users/ryohk/workspace/kadai1(End Device)\PLM\PRM\Linker_MC1323x_far_banked.prm" -LpX -Lp=pre.prm
+"D:/Users/ryohk/workspace/kadai1(End Device)\PLM\PRM\Linker_MC1323x_far_banked.prm"
+Command Line: '-ArgFile"PLM\Source\Common\Sys\crt0.args" "D:/Users/ryohk/workspace/kadai1(End Device)\PLM\PRM\Linker_MC1323x_far_banked.prm" -LpX -Lp=pre.prm'
+"D:/Users/ryohk/workspace/kadai1(End Device)\PLM\PRM\Linker_MC1323x_far_banked.prm"
+Listing of preprocessing to 'D:\Users\ryohk\workspace\kadai1(End Device)\MyWirelessApp Demo Beacon (End Device)\pre.prm'
+HC08 Compiler: *** 0 error(s), 0 warning(s), 0 information message(s) ***
+HC08 Compiler: *** Processing ok ***
+' '
+'Building target: MyWirelessApp Demo Beacon (End Device).abs'
+'Executing target #41 MyWirelessApp Demo Beacon (End Device).abs'
+'Invoking: Linker'
+"D:/Freescale/CW MCU v10.3/MCU/prog/linker" -ArgFile"MyWirelessApp Demo Beacon (End Device).args" -O"MyWirelessApp Demo Beacon (End Device).abs"
+"D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/pre.prm"
+Command Line: '-ArgFile"MyWirelessApp Demo Beacon (End Device).args" -O"MyWirelessApp Demo Beacon (End Device).abs"'
+Linking D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/pre.prm
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/SSM/ZTC/Source/ZtcClientCommunication_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/SSM/ZTC/Source/ZtcCopyData_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/SSM/ZTC/Source/ZtcIBManagement_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/SSM/ZTC/Source/ZtcMain_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/SSM/ZTC/Source/ZtcMsgTypeInfo_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/SSM/ZTC/Source/ZtcSAPHandlerInfo_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/SSM/TS/Source/TS_kernel_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/UART/Uart_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Touchpad/Touchpad_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/TempSensor/LM61B_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/TMR/Timer_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Sound/Sound_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/SPI/SPI_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/RST/RSTHal_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/NVM/NV_Flash_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/NVM/NV_FlashHAL_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Led/Led_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/LPM/PWRLib_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/LPM/PWR_MC1323x_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Keyboard/Keyboard_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/IIC/IIC_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/FunctionLib/FunctionLib_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Display/Display_MC1323x_RCM_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Common/Sys/NV_Data_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Common/Sys/PlatformInit_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Common/Sys/crt0_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Common/Sys/dummyisr_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Common/Sys/icg_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Common/Sys/isrvectors_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/CMT/CMT_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/PLM/Source/Accelerometer/Accelerometer_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/MacPhy/Phy/MC1323X/PhyISR_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/MacPhy/Phy/MC1323X/PhyPacketProcessor_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/MacPhy/Phy/MC1323X/PhyPlmeData_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/MacPhy/Phy/MC1323X/PhyTime_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/Application/UartUtil/UartUtil_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/Application/Source/MApp_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/Application/Init/MApp_init_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/Application/Init/MacInit_c.obj'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MyWirelessApp Demo Beacon (End Device)/Application/Configure/GlobalVars_c.obj'
+Reading file 'D:/Freescale/CW MCU v10.3/MCU/lib/hc08c/lib/ansibim.lib'
+Reading file 'D:/Users/ryohk/workspace/kadai1(End Device)/MacPhy/Libs/802.15.4_MAC_FFD_S08MC1323x.Lib'
+Generating SRecord File 'D:\Users\ryohk\workspace\kadai1(End Device)\MyWirelessApp Demo Beacon (End Device)\MyWirelessApp Demo Beacon (End Device).s19'
+Generating Symbol table
+Generating DWARF data version 2.0
+Code Size: 49319
+Generating MAP file 'D:\Users\ryohk\workspace\kadai1(End Device)\MyWirelessApp Demo Beacon (End Device)\MyWirelessApp Demo Beacon (End Device).map'
+SmartLinker: *** 0 error(s), 0 warning(s), 0 information message(s) ***
+SmartLinker: *** Processing ok ***
+'Finished building target: MyWirelessApp Demo Beacon (End Device).abs'
+' '

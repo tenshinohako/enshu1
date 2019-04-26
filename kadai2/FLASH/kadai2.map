@@ -1,0 +1,1137 @@
+*** EVALUATION ***
+PROGRAM "kadai2.abs"
+
+*********************************************************************************************
+TARGET SECTION
+---------------------------------------------------------------------------------------------
+Processor   : Freescale HC08
+Memory Model: SMALL
+File Format : ELF\DWARF 2.0
+Linker      : SmartLinker V-5.0.49 Build 12319, Nov 15 2012
+
+*********************************************************************************************
+FILE SECTION
+---------------------------------------------------------------------------------------------
+main_c.obj                              Model: SMALL,         Lang: ANSI-C
+start08_c.obj                           Model: SMALL,         Lang: ANSI-C
+mc13233c_c.obj                          Model: SMALL,         Lang: ANSI-C
+
+*********************************************************************************************
+STARTUP SECTION
+---------------------------------------------------------------------------------------------
+Entry point: 0x20FB (_Startup)
+_startupData is allocated at 0x2104 and uses 6 Bytes
+extern struct _tagStartup {
+  unsigned nofZeroOut     1
+  _Range   pZeroOut       0x100     2
+  _Copy    *toCopyDownBeg 0x21E4
+} _startupData;
+
+*********************************************************************************************
+SECTION-ALLOCATION SECTION
+Section Name                    Size  Type     From       To       Segment
+---------------------------------------------------------------------------------------------
+.init                            132     R     0x2080     0x2103   ROM
+.startData                        14     R     0x2104     0x2111   ROM
+.text                            210     R     0x2112     0x21E3   ROM
+.copy                              8     R     0x21E4     0x21EB   ROM
+.abs_section_ffce                  2   N/I     0xFFCE     0xFFCF   .absSeg0
+.abs_section_0                     1   N/I        0x0        0x0   .absSeg1
+.abs_section_1                     1   N/I        0x1        0x1   .absSeg2
+.abs_section_2                     1   N/I        0x2        0x2   .absSeg3
+.abs_section_3                     1   N/I        0x3        0x3   .absSeg4
+.abs_section_4                     1   N/I        0x4        0x4   .absSeg5
+.abs_section_5                     1   N/I        0x5        0x5   .absSeg6
+.abs_section_6                     1   N/I        0x6        0x6   .absSeg7
+.abs_section_7                     1   N/I        0x7        0x7   .absSeg8
+.abs_section_8                     1   N/I        0x8        0x8   .absSeg9
+.abs_section_d                     1   N/I        0xD        0xD   .absSeg10
+.abs_section_10                    1   N/I       0x10       0x10   .absSeg11
+.abs_section_15                    1   N/I       0x15       0x15   .absSeg12
+.abs_section_18                    1   N/I       0x18       0x18   .absSeg13
+.abs_section_1d                    1   N/I       0x1D       0x1D   .absSeg14
+.abs_section_20                    1   N/I       0x20       0x20   .absSeg15
+.abs_section_21                    1   N/I       0x21       0x21   .absSeg16
+.abs_section_22                    1   N/I       0x22       0x22   .absSeg17
+.abs_section_23                    1   N/I       0x23       0x23   .absSeg18
+.abs_section_24                    1   N/I       0x24       0x24   .absSeg19
+.abs_section_25                    1   N/I       0x25       0x25   .absSeg20
+.abs_section_26                    1   N/I       0x26       0x26   .absSeg21
+.abs_section_27                    1   N/I       0x27       0x27   .absSeg22
+.abs_section_28                    1   N/I       0x28       0x28   .absSeg23
+.abs_section_29                    1   N/I       0x29       0x29   .absSeg24
+.abs_section_2a                    1   N/I       0x2A       0x2A   .absSeg25
+.abs_section_2b                    1   N/I       0x2B       0x2B   .absSeg26
+.abs_section_2c                    1   N/I       0x2C       0x2C   .absSeg27
+.abs_section_2d                    1   N/I       0x2D       0x2D   .absSeg28
+.abs_section_2e                    1   N/I       0x2E       0x2E   .absSeg29
+.abs_section_2f                    1   N/I       0x2F       0x2F   .absSeg30
+.abs_section_30                    1   N/I       0x30       0x30   .absSeg31
+.abs_section_31                    1   N/I       0x31       0x31   .absSeg32
+.abs_section_32                    1   N/I       0x32       0x32   .absSeg33
+.abs_section_33                    1   N/I       0x33       0x33   .absSeg34
+.abs_section_34                    1   N/I       0x34       0x34   .absSeg35
+.abs_section_35                    1   N/I       0x35       0x35   .absSeg36
+.abs_section_36                    1   N/I       0x36       0x36   .absSeg37
+.abs_section_37                    1   N/I       0x37       0x37   .absSeg38
+.abs_section_3a                    1   N/I       0x3A       0x3A   .absSeg39
+.abs_section_3b                    1   N/I       0x3B       0x3B   .absSeg40
+.abs_section_3c                    1   N/I       0x3C       0x3C   .absSeg41
+.abs_section_3d                    1   N/I       0x3D       0x3D   .absSeg42
+.abs_section_3e                    1   N/I       0x3E       0x3E   .absSeg43
+.abs_section_3f                    1   N/I       0x3F       0x3F   .absSeg44
+.abs_section_40                    1   N/I       0x40       0x40   .absSeg45
+.abs_section_41                    1   N/I       0x41       0x41   .absSeg46
+.abs_section_42                    1   N/I       0x42       0x42   .absSeg47
+.abs_section_43                    1   N/I       0x43       0x43   .absSeg48
+.abs_section_44                    1   N/I       0x44       0x44   .absSeg49
+.abs_section_45                    1   N/I       0x45       0x45   .absSeg50
+.abs_section_46                    1   N/I       0x46       0x46   .absSeg51
+.abs_section_47                    1   N/I       0x47       0x47   .absSeg52
+.abs_section_48                    1   N/I       0x48       0x48   .absSeg53
+.abs_section_49                    1   N/I       0x49       0x49   .absSeg54
+.abs_section_4a                    1   N/I       0x4A       0x4A   .absSeg55
+.abs_section_4b                    1   N/I       0x4B       0x4B   .absSeg56
+.abs_section_4c                    1   N/I       0x4C       0x4C   .absSeg57
+.abs_section_4d                    1   N/I       0x4D       0x4D   .absSeg58
+.abs_section_4e                    1   N/I       0x4E       0x4E   .absSeg59
+.abs_section_50                    1   N/I       0x50       0x50   .absSeg60
+.abs_section_51                    1   N/I       0x51       0x51   .absSeg61
+.abs_section_52                    1   N/I       0x52       0x52   .absSeg62
+.abs_section_53                    1   N/I       0x53       0x53   .absSeg63
+.abs_section_54                    1   N/I       0x54       0x54   .absSeg64
+.abs_section_55                    1   N/I       0x55       0x55   .absSeg65
+.abs_section_56                    1   N/I       0x56       0x56   .absSeg66
+.abs_section_57                    1   N/I       0x57       0x57   .absSeg67
+.abs_section_58                    1   N/I       0x58       0x58   .absSeg68
+.abs_section_59                    1   N/I       0x59       0x59   .absSeg69
+.abs_section_5a                    1   N/I       0x5A       0x5A   .absSeg70
+.abs_section_5b                    1   N/I       0x5B       0x5B   .absSeg71
+.abs_section_5c                    1   N/I       0x5C       0x5C   .absSeg72
+.abs_section_5d                    1   N/I       0x5D       0x5D   .absSeg73
+.abs_section_5e                    1   N/I       0x5E       0x5E   .absSeg74
+.abs_section_5f                    1   N/I       0x5F       0x5F   .absSeg75
+.abs_section_64                    1   N/I       0x64       0x64   .absSeg76
+.abs_section_65                    1   N/I       0x65       0x65   .absSeg77
+.abs_section_6a                    1   N/I       0x6A       0x6A   .absSeg78
+.abs_section_6b                    1   N/I       0x6B       0x6B   .absSeg79
+.abs_section_6c                    1   N/I       0x6C       0x6C   .absSeg80
+.abs_section_6d                    1   N/I       0x6D       0x6D   .absSeg81
+.abs_section_6e                    1   N/I       0x6E       0x6E   .absSeg82
+.abs_section_6f                    1   N/I       0x6F       0x6F   .absSeg83
+.abs_section_70                    1   N/I       0x70       0x70   .absSeg84
+.abs_section_71                    1   N/I       0x71       0x71   .absSeg85
+.abs_section_72                    1   N/I       0x72       0x72   .absSeg86
+.abs_section_73                    1   N/I       0x73       0x73   .absSeg87
+.abs_section_75                    1   N/I       0x75       0x75   .absSeg88
+.abs_section_76                    1   N/I       0x76       0x76   .absSeg89
+.abs_section_78                    1   N/I       0x78       0x78   .absSeg90
+.abs_section_79                    1   N/I       0x79       0x79   .absSeg91
+.abs_section_7a                    1   N/I       0x7A       0x7A   .absSeg92
+.abs_section_7b                    1   N/I       0x7B       0x7B   .absSeg93
+.abs_section_7c                    1   N/I       0x7C       0x7C   .absSeg94
+.abs_section_7d                    1   N/I       0x7D       0x7D   .absSeg95
+.abs_section_7e                    1   N/I       0x7E       0x7E   .absSeg96
+.abs_section_7f                    1   N/I       0x7F       0x7F   .absSeg97
+.abs_section_1800                  1   N/I     0x1800     0x1800   .absSeg98
+.abs_section_1801                  1   N/I     0x1801     0x1801   .absSeg99
+.abs_section_1802                  1   N/I     0x1802     0x1802   .absSeg100
+.abs_section_1803                  1   N/I     0x1803     0x1803   .absSeg101
+.abs_section_1804                  1   N/I     0x1804     0x1804   .absSeg102
+.abs_section_1808                  1   N/I     0x1808     0x1808   .absSeg103
+.abs_section_1809                  1   N/I     0x1809     0x1809   .absSeg104
+.abs_section_180b                  1   N/I     0x180B     0x180B   .absSeg105
+.abs_section_180c                  1   N/I     0x180C     0x180C   .absSeg106
+.abs_section_180d                  1   N/I     0x180D     0x180D   .absSeg107
+.abs_section_180e                  1   N/I     0x180E     0x180E   .absSeg108
+.abs_section_180f                  1   N/I     0x180F     0x180F   .absSeg109
+.abs_section_1818                  1   N/I     0x1818     0x1818   .absSeg110
+.abs_section_1819                  1   N/I     0x1819     0x1819   .absSeg111
+.abs_section_181a                  1   N/I     0x181A     0x181A   .absSeg112
+.abs_section_181b                  1   N/I     0x181B     0x181B   .absSeg113
+.abs_section_181c                  1   N/I     0x181C     0x181C   .absSeg114
+.abs_section_181d                  1   N/I     0x181D     0x181D   .absSeg115
+.abs_section_181e                  1   N/I     0x181E     0x181E   .absSeg116
+.abs_section_181f                  1   N/I     0x181F     0x181F   .absSeg117
+.abs_section_1821                  1   N/I     0x1821     0x1821   .absSeg118
+.abs_section_1823                  1   N/I     0x1823     0x1823   .absSeg119
+.abs_section_1824                  1   N/I     0x1824     0x1824   .absSeg120
+.abs_section_1825                  1   N/I     0x1825     0x1825   .absSeg121
+.abs_section_1826                  1   N/I     0x1826     0x1826   .absSeg122
+.abs_section_1828                  1   N/I     0x1828     0x1828   .absSeg123
+.abs_section_1829                  1   N/I     0x1829     0x1829   .absSeg124
+.abs_section_182a                  1   N/I     0x182A     0x182A   .absSeg125
+.abs_section_182b                  1   N/I     0x182B     0x182B   .absSeg126
+.abs_section_182c                  1   N/I     0x182C     0x182C   .absSeg127
+.abs_section_1830                  1   N/I     0x1830     0x1830   .absSeg128
+.abs_section_1831                  1   N/I     0x1831     0x1831   .absSeg129
+.abs_section_1832                  1   N/I     0x1832     0x1832   .absSeg130
+.abs_section_1834                  1   N/I     0x1834     0x1834   .absSeg131
+.abs_section_1835                  1   N/I     0x1835     0x1835   .absSeg132
+.abs_section_1836                  1   N/I     0x1836     0x1836   .absSeg133
+.abs_section_1838                  1   N/I     0x1838     0x1838   .absSeg134
+.abs_section_1839                  1   N/I     0x1839     0x1839   .absSeg135
+.abs_section_183a                  1   N/I     0x183A     0x183A   .absSeg136
+.abs_section_183c                  1   N/I     0x183C     0x183C   .absSeg137
+.abs_section_183d                  1   N/I     0x183D     0x183D   .absSeg138
+.abs_section_183e                  1   N/I     0x183E     0x183E   .absSeg139
+.abs_section_1840                  1   N/I     0x1840     0x1840   .absSeg140
+.abs_section_1841                  1   N/I     0x1841     0x1841   .absSeg141
+.abs_section_1842                  1   N/I     0x1842     0x1842   .absSeg142
+.abs_section_1843                  1   N/I     0x1843     0x1843   .absSeg143
+.abs_section_1844                  1   N/I     0x1844     0x1844   .absSeg144
+.abs_section_1845                  1   N/I     0x1845     0x1845   .absSeg145
+.abs_section_1846                  1   N/I     0x1846     0x1846   .absSeg146
+.abs_section_1847                  1   N/I     0x1847     0x1847   .absSeg147
+.abs_section_1848                  1   N/I     0x1848     0x1848   .absSeg148
+.abs_section_1849                  1   N/I     0x1849     0x1849   .absSeg149
+.abs_section_184a                  1   N/I     0x184A     0x184A   .absSeg150
+.abs_section_184b                  1   N/I     0x184B     0x184B   .absSeg151
+.abs_section_184c                  1   N/I     0x184C     0x184C   .absSeg152
+.abs_section_184d                  1   N/I     0x184D     0x184D   .absSeg153
+.abs_section_184e                  1   N/I     0x184E     0x184E   .absSeg154
+.abs_section_184f                  1   N/I     0x184F     0x184F   .absSeg155
+.abs_section_1850                  1   N/I     0x1850     0x1850   .absSeg156
+.abs_section_1851                  1   N/I     0x1851     0x1851   .absSeg157
+.abs_section_1852                  1   N/I     0x1852     0x1852   .absSeg158
+.abs_section_1853                  1   N/I     0x1853     0x1853   .absSeg159
+.abs_section_1854                  1   N/I     0x1854     0x1854   .absSeg160
+.abs_section_1855                  1   N/I     0x1855     0x1855   .absSeg161
+.abs_section_1856                  1   N/I     0x1856     0x1856   .absSeg162
+.abs_section_1857                  1   N/I     0x1857     0x1857   .absSeg163
+.abs_section_1858                  1   N/I     0x1858     0x1858   .absSeg164
+.abs_section_1859                  1   N/I     0x1859     0x1859   .absSeg165
+.abs_section_185a                  1   N/I     0x185A     0x185A   .absSeg166
+.abs_section_185b                  1   N/I     0x185B     0x185B   .absSeg167
+.abs_section_185c                  1   N/I     0x185C     0x185C   .absSeg168
+.abs_section_1860                  1   N/I     0x1860     0x1860   .absSeg169
+.abs_section_1865                  1   N/I     0x1865     0x1865   .absSeg170
+.abs_section_9                     2   N/I        0x9        0xA   .absSeg171
+.abs_section_b                     2   N/I        0xB        0xC   .absSeg172
+.abs_section_e                     2   N/I        0xE        0xF   .absSeg173
+.abs_section_11                    2   N/I       0x11       0x12   .absSeg174
+.abs_section_13                    2   N/I       0x13       0x14   .absSeg175
+.abs_section_16                    2   N/I       0x16       0x17   .absSeg176
+.abs_section_19                    2   N/I       0x19       0x1A   .absSeg177
+.abs_section_1b                    2   N/I       0x1B       0x1C   .absSeg178
+.abs_section_1e                    2   N/I       0x1E       0x1F   .absSeg179
+.abs_section_38                    2   N/I       0x38       0x39   .absSeg180
+.abs_section_60                    2   N/I       0x60       0x61   .absSeg181
+.abs_section_62                    2   N/I       0x62       0x63   .absSeg182
+.abs_section_66                    2   N/I       0x66       0x67   .absSeg183
+.abs_section_68                    2   N/I       0x68       0x69   .absSeg184
+.abs_section_1806                  2   N/I     0x1806     0x1807   .absSeg185
+.abs_section_1810                  2   N/I     0x1810     0x1811   .absSeg186
+.abs_section_1812                  2   N/I     0x1812     0x1813   .absSeg187
+.abs_section_1814                  2   N/I     0x1814     0x1815   .absSeg188
+.abs_section_1816                  2   N/I     0x1816     0x1817   .absSeg189
+.abs_section_1861                  2   N/I     0x1861     0x1862   .absSeg190
+.abs_section_1863                  2   N/I     0x1863     0x1864   .absSeg191
+.abs_section_1866                  2   N/I     0x1866     0x1867   .absSeg192
+.bss                               2   R/W      0x100      0x101   RAM
+.stack                           256   R/W      0x102      0x201   RAM
+.vectSeg193_vect                   2     R     0xFFFE     0xFFFF   .vectSeg193
+
+Summary of section sizes per section type:
+READ_ONLY (R):         16E (dec:      366)
+READ_WRITE (R/W):      102 (dec:      258)
+NO_INIT (N/I):          D8 (dec:      216)
+
+*********************************************************************************************
+VECTOR-ALLOCATION SECTION
+    Address     InitValue   InitFunction
+---------------------------------------------------------------------------------------------
+     0xFFFE        0x20FB   _Startup
+
+*********************************************************************************************
+OBJECT-ALLOCATION SECTION
+     Name               Module                 Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+MODULE:                 -- main_c.obj --
+- PROCEDURES:
+     main                                      2112       9       9       1   .text       
+     init_device                               211B      39      57       1   .text       
+     main_control                              2154      77     119       1   .text       
+     IntKey                                    21CB      19      25       1   .text       
+- VARIABLES:
+     flag                                       100       1       1       2   .bss        
+     count                                      101       1       1       5   .bss        
+     const_vect                                FFCE       2       2       0   .abs_section_ffce
+MODULE:                 -- start08_c.obj --
+- PROCEDURES:
+     loadByte                                  2080       E      14       5   .init       
+     Init                                      208E      6D     109       1   .init       
+     _Startup                                  20FB       9       9       0   .init       
+- VARIABLES:
+     _startupData                              2104       6       6       4   .startData  
+- LABELS:
+     __SEG_END_SSTACK                           202       0       0       1               
+MODULE:                 -- mc13233c_c.obj --
+- PROCEDURES:
+- VARIABLES:
+     _PTAD                                        0       1       1       6   .abs_section_0
+     _PTADD                                       1       1       1       2   .abs_section_1
+     _PTBD                                        2       1       1       2   .abs_section_2
+     _PTBDD                                       3       1       1       3   .abs_section_3
+     _PTCD                                        4       1       1       1   .abs_section_4
+     _PTCDD                                       5       1       1       1   .abs_section_5
+     _PTDD                                        6       1       1       6   .abs_section_6
+     _PTDDD                                       7       1       1       2   .abs_section_7
+     _TPM1SC                                      8       1       1       0   .abs_section_8
+     _TPM1C0SC                                    D       1       1       0   .abs_section_d
+     _TPM2SC                                     10       1       1       0   .abs_section_10
+     _TPM2C0SC                                   15       1       1       0   .abs_section_15
+     _TPM3SC                                     18       1       1       0   .abs_section_18
+     _TPM3C0SC                                   1D       1       1       0   .abs_section_1d
+     _AES_CONTROL1                               20       1       1       0   .abs_section_20
+     _AES_CONTROL2                               21       1       1       0   .abs_section_21
+     _ASM_Data_0                                 22       1       1       0   .abs_section_22
+     _ASM_Data_1                                 23       1       1       0   .abs_section_23
+     _ASM_Data_2                                 24       1       1       0   .abs_section_24
+     _ASM_Data_3                                 25       1       1       0   .abs_section_25
+     _ASM_Data_4                                 26       1       1       0   .abs_section_26
+     _ASM_Data_5                                 27       1       1       0   .abs_section_27
+     _ASM_Data_6                                 28       1       1       0   .abs_section_28
+     _ASM_Data_7                                 29       1       1       0   .abs_section_29
+     _ASM_Data_8                                 2A       1       1       0   .abs_section_2a
+     _ASM_Data_9                                 2B       1       1       0   .abs_section_2b
+     _ASM_Data_A                                 2C       1       1       0   .abs_section_2c
+     _ASM_Data_B                                 2D       1       1       0   .abs_section_2d
+     _ASM_Data_C                                 2E       1       1       0   .abs_section_2e
+     _ASM_Data_D                                 2F       1       1       0   .abs_section_2f
+     _ASM_Data_E                                 30       1       1       0   .abs_section_30
+     _ASM_Data_F                                 31       1       1       0   .abs_section_31
+     _KBI1SC                                     32       1       1       2   .abs_section_32
+     _KBI1PE                                     33       1       1       3   .abs_section_33
+     _KBI1ES                                     34       1       1       0   .abs_section_34
+     _KBI2SC                                     35       1       1       0   .abs_section_35
+     _KBI2PE                                     36       1       1       0   .abs_section_36
+     _KBI2ES                                     37       1       1       0   .abs_section_37
+     _SCIC1                                      3A       1       1       0   .abs_section_3a
+     _SCIC2                                      3B       1       1       0   .abs_section_3b
+     _SCIS1                                      3C       1       1       0   .abs_section_3c
+     _SCIS2                                      3D       1       1       0   .abs_section_3d
+     _SCIC3                                      3E       1       1       0   .abs_section_3e
+     _SCID                                       3F       1       1       0   .abs_section_3f
+     _PHY_TXD_ADR_PNTR0                          40       1       1       0   .abs_section_40
+     _PHY_TXD_ADR_PNTR1                          41       1       1       0   .abs_section_41
+     _PHY_RXD_ADR_PNTR0                          42       1       1       0   .abs_section_42
+     _PHY_RXD_ADR_PNTR1                          43       1       1       0   .abs_section_43
+     _PHY_CNTRL1                                 44       1       1       0   .abs_section_44
+     _PHY_CNTRL2                                 45       1       1       0   .abs_section_45
+     _PHY_CNTRL3                                 46       1       1       0   .abs_section_46
+     _PHY_CNTRL4                                 47       1       1       0   .abs_section_47
+     _PHY_SRC_CNTRL                              48       1       1       0   .abs_section_48
+     _PHY_SRC_ADDRS_SUM_DATA0                    49       1       1       0   .abs_section_49
+     _PHY_SRC_ADDRS_SUM_DATA1                    4A       1       1       0   .abs_section_4a
+     _PHY_RX_WTR_MARK                            4B       1       1       0   .abs_section_4b
+     _PHY_RX_BYTE_COUNT                          4C       1       1       0   .abs_section_4c
+     _PHY_STATUS1                                4D       1       1       0   .abs_section_4d
+     _PHY_STATUS2                                4E       1       1       0   .abs_section_4e
+     _PHY_CCAFNL                                 50       1       1       0   .abs_section_50
+     _PHY_EVENT_TMR0                             51       1       1       0   .abs_section_51
+     _PHY_EVENT_TMR1                             52       1       1       0   .abs_section_52
+     _PHY_EVENT_TMR2                             53       1       1       0   .abs_section_53
+     _PHY_TIMESTAMP0                             54       1       1       0   .abs_section_54
+     _PHY_TIMESTAMP1                             55       1       1       0   .abs_section_55
+     _PHY_TIMESTAMP2                             56       1       1       0   .abs_section_56
+     _PHY_T3CMP0                                 57       1       1       0   .abs_section_57
+     _PHY_T3CMP1                                 58       1       1       0   .abs_section_58
+     _PHY_T3CMP2                                 59       1       1       0   .abs_section_59
+     _PHY_TC2_PRIME0                             5A       1       1       0   .abs_section_5a
+     _PHY_TC2_PRIME1                             5B       1       1       0   .abs_section_5b
+     _PHY_MACSHORTADDRS0                         5C       1       1       0   .abs_section_5c
+     _PHY_MACSHORTADDRS1                         5D       1       1       0   .abs_section_5d
+     _PHY_MACPANID0                              5E       1       1       0   .abs_section_5e
+     _PHY_MACPANID1                              5F       1       1       0   .abs_section_5f
+     _CMTOC                                      64       1       1       0   .abs_section_64
+     _CMTMSC                                     65       1       1       0   .abs_section_65
+     _IICA                                       6A       1       1       0   .abs_section_6a
+     _IICF                                       6B       1       1       0   .abs_section_6b
+     _IICC1                                      6C       1       1       0   .abs_section_6c
+     _IICS                                       6D       1       1       0   .abs_section_6d
+     _IICD                                       6E       1       1       0   .abs_section_6e
+     _IICC2                                      6F       1       1       0   .abs_section_6f
+     _SPIC1                                      70       1       1       0   .abs_section_70
+     _SPIC2                                      71       1       1       0   .abs_section_71
+     _SPIBR                                      72       1       1       0   .abs_section_72
+     _SPIS                                       73       1       1       0   .abs_section_73
+     _SPID                                       75       1       1       0   .abs_section_75
+     _IRQSC                                      76       1       1       0   .abs_section_76
+     _PPAGE                                      78       1       1       0   .abs_section_78
+     _LAP2                                       79       1       1       0   .abs_section_79
+     _LAP1                                       7A       1       1       0   .abs_section_7a
+     _LAP0                                       7B       1       1       0   .abs_section_7b
+     _LWP                                        7C       1       1       0   .abs_section_7c
+     _LBP                                        7D       1       1       0   .abs_section_7d
+     _LB                                         7E       1       1       0   .abs_section_7e
+     _LAPAB                                      7F       1       1       0   .abs_section_7f
+     _SRS                                      1800       1       1       0   .abs_section_1800
+     _SBDFR                                    1801       1       1       0   .abs_section_1801
+     _SOPT1                                    1802       1       1       1   .abs_section_1802
+     _SOPT2                                    1803       1       1       0   .abs_section_1803
+     _SCIC4                                    1804       1       1       0   .abs_section_1804
+     _SPMSC1                                   1808       1       1       0   .abs_section_1808
+     _SPMSC2                                   1809       1       1       0   .abs_section_1809
+     _SPMSC3                                   180B       1       1       0   .abs_section_180b
+     _SOMC1                                    180C       1       1       0   .abs_section_180c
+     _SOMC2                                    180D       1       1       0   .abs_section_180d
+     _SCGC1                                    180E       1       1       0   .abs_section_180e
+     _SCGC2                                    180F       1       1       0   .abs_section_180f
+     _DBGCAX                                   1818       1       1       0   .abs_section_1818
+     _DBGCBX                                   1819       1       1       0   .abs_section_1819
+     _DBGCCX                                   181A       1       1       0   .abs_section_181a
+     _DBGFX                                    181B       1       1       0   .abs_section_181b
+     _DBGC                                     181C       1       1       0   .abs_section_181c
+     _DBGT                                     181D       1       1       0   .abs_section_181d
+     _DBGS                                     181E       1       1       0   .abs_section_181e
+     _DBGCNT                                   181F       1       1       0   .abs_section_181f
+     _FOPT                                     1821       1       1       0   .abs_section_1821
+     _FCNFG                                    1823       1       1       0   .abs_section_1823
+     _FPROT                                    1824       1       1       0   .abs_section_1824
+     _FSTAT                                    1825       1       1       0   .abs_section_1825
+     _FCMD                                     1826       1       1       0   .abs_section_1826
+     _RTCSC                                    1828       1       1       0   .abs_section_1828
+     _RTCCNTL                                  1829       1       1       0   .abs_section_1829
+     _RTCMODL                                  182A       1       1       0   .abs_section_182a
+     _RTCCNTH                                  182B       1       1       0   .abs_section_182b
+     _RTCMODH                                  182C       1       1       0   .abs_section_182c
+     _PTAPE                                    1830       1       1       0   .abs_section_1830
+     _PTASE                                    1831       1       1       0   .abs_section_1831
+     _PTADS                                    1832       1       1       0   .abs_section_1832
+     _PTBPE                                    1834       1       1       1   .abs_section_1834
+     _PTBSE                                    1835       1       1       0   .abs_section_1835
+     _PTBDS                                    1836       1       1       0   .abs_section_1836
+     _PTCPE                                    1838       1       1       0   .abs_section_1838
+     _PTCSE                                    1839       1       1       0   .abs_section_1839
+     _PTCDS                                    183A       1       1       0   .abs_section_183a
+     _PTDPE                                    183C       1       1       0   .abs_section_183c
+     _PTDSE                                    183D       1       1       0   .abs_section_183d
+     _PTDDS                                    183E       1       1       0   .abs_section_183e
+     _PHY_T1CMP0                               1840       1       1       0   .abs_section_1840
+     _PHY_T1CMP1                               1841       1       1       0   .abs_section_1841
+     _PHY_T1CMP2                               1842       1       1       0   .abs_section_1842
+     _PHY_T2CMP0                               1843       1       1       0   .abs_section_1843
+     _PHY_T2CMP1                               1844       1       1       0   .abs_section_1844
+     _PHY_T2CMP2                               1845       1       1       0   .abs_section_1845
+     _PHY_T4CMP0                               1846       1       1       0   .abs_section_1846
+     _PHY_T4CMP1                               1847       1       1       0   .abs_section_1847
+     _PHY_T4CMP2                               1848       1       1       0   .abs_section_1848
+     _PHY_LO1_FRAC0                            1849       1       1       0   .abs_section_1849
+     _PHY_LO1_FRAC1                            184A       1       1       0   .abs_section_184a
+     _PHY_LO1_INT                              184B       1       1       0   .abs_section_184b
+     _PHY_PA_PWR_CNTL                          184C       1       1       0   .abs_section_184c
+     _PHY_MACLONGADDRS0                        184D       1       1       0   .abs_section_184d
+     _PHY_MACLONGADDRS1                        184E       1       1       0   .abs_section_184e
+     _PHY_MACLONGADDRS2                        184F       1       1       0   .abs_section_184f
+     _PHY_MACLONGADDRS3                        1850       1       1       0   .abs_section_1850
+     _PHY_MACLONGADDRS4                        1851       1       1       0   .abs_section_1851
+     _PHY_MACLONGADDRS5                        1852       1       1       0   .abs_section_1852
+     _PHY_MACLONGADDRS6                        1853       1       1       0   .abs_section_1853
+     _PHY_MACLONGADDRS7                        1854       1       1       0   .abs_section_1854
+     _PHY_MAXFRAMELENGTH                       1855       1       1       0   .abs_section_1855
+     _PHY_RX_FRAME_FILTER                      1856       1       1       0   .abs_section_1856
+     _PHY_MACFRAMEVER                          1857       1       1       0   .abs_section_1857
+     _PHY_CCA_THRESHOLD                        1858       1       1       0   .abs_section_1858
+     _PHY_CCA_OFFSET_CMP                       1859       1       1       0   .abs_section_1859
+     _PHY_FSM                                  185A       1       1       0   .abs_section_185a
+     _PHY_INDIRECT_ACCESS_INDEX                185B       1       1       0   .abs_section_185b
+     _PHY_INDIRECT_ACCESS_DATA                 185C       1       1       0   .abs_section_185c
+     _TPM4SC                                   1860       1       1       0   .abs_section_1860
+     _TPM4C0SC                                 1865       1       1       0   .abs_section_1865
+     _TPM1CNT                                     9       2       2       0   .abs_section_9
+     _TPM1MOD                                     B       2       2       0   .abs_section_b
+     _TPM1C0V                                     E       2       2       0   .abs_section_e
+     _TPM2CNT                                    11       2       2       0   .abs_section_11
+     _TPM2MOD                                    13       2       2       0   .abs_section_13
+     _TPM2C0V                                    16       2       2       0   .abs_section_16
+     _TPM3CNT                                    19       2       2       0   .abs_section_19
+     _TPM3MOD                                    1B       2       2       0   .abs_section_1b
+     _TPM3C0V                                    1E       2       2       0   .abs_section_1e
+     _SCIBD                                      38       2       2       0   .abs_section_38
+     _CMTCG1                                     60       2       2       0   .abs_section_60
+     _CMTCG2                                     62       2       2       0   .abs_section_62
+     _CMTCMD12                                   66       2       2       0   .abs_section_66
+     _CMTCMD34                                   68       2       2       0   .abs_section_68
+     _SDID                                     1806       2       2       0   .abs_section_1806
+     _DBGCA                                    1810       2       2       0   .abs_section_1810
+     _DBGCB                                    1812       2       2       0   .abs_section_1812
+     _DBGCC                                    1814       2       2       0   .abs_section_1814
+     _DBGF                                     1816       2       2       0   .abs_section_1816
+     _TPM4CNT                                  1861       2       2       0   .abs_section_1861
+     _TPM4MOD                                  1863       2       2       0   .abs_section_1863
+     _TPM4C0V                                  1866       2       2       0   .abs_section_1866
+
+*********************************************************************************************
+MODULE STATISTIC
+  Name                                      Data   Code  Const
+---------------------------------------------------------------------------------------------
+  main_c.obj                                   4    210      0
+  start08_c.obj                                0    132      0
+  mc13233c_c.obj                             214      0      0
+  other                                      256     16      8
+
+*********************************************************************************************
+SECTION USE IN OBJECT-ALLOCATION SECTION
+---------------------------------------------------------------------------------------------
+SECTION: ".text"
+  main init_device main_control IntKey 
+SECTION: ".bss"
+  flag count 
+SECTION: ".init"
+  loadByte Init _Startup 
+SECTION: ".abs_section_ffce"
+  const_vect 
+SECTION: ".abs_section_0"
+  _PTAD 
+SECTION: ".abs_section_1"
+  _PTADD 
+SECTION: ".abs_section_2"
+  _PTBD 
+SECTION: ".abs_section_3"
+  _PTBDD 
+SECTION: ".abs_section_4"
+  _PTCD 
+SECTION: ".abs_section_5"
+  _PTCDD 
+SECTION: ".abs_section_6"
+  _PTDD 
+SECTION: ".abs_section_7"
+  _PTDDD 
+SECTION: ".abs_section_8"
+  _TPM1SC 
+SECTION: ".abs_section_d"
+  _TPM1C0SC 
+SECTION: ".abs_section_10"
+  _TPM2SC 
+SECTION: ".abs_section_15"
+  _TPM2C0SC 
+SECTION: ".abs_section_18"
+  _TPM3SC 
+SECTION: ".abs_section_1d"
+  _TPM3C0SC 
+SECTION: ".abs_section_20"
+  _AES_CONTROL1 
+SECTION: ".abs_section_21"
+  _AES_CONTROL2 
+SECTION: ".abs_section_22"
+  _ASM_Data_0 
+SECTION: ".abs_section_23"
+  _ASM_Data_1 
+SECTION: ".abs_section_24"
+  _ASM_Data_2 
+SECTION: ".abs_section_25"
+  _ASM_Data_3 
+SECTION: ".abs_section_26"
+  _ASM_Data_4 
+SECTION: ".abs_section_27"
+  _ASM_Data_5 
+SECTION: ".abs_section_28"
+  _ASM_Data_6 
+SECTION: ".abs_section_29"
+  _ASM_Data_7 
+SECTION: ".abs_section_2a"
+  _ASM_Data_8 
+SECTION: ".abs_section_2b"
+  _ASM_Data_9 
+SECTION: ".abs_section_2c"
+  _ASM_Data_A 
+SECTION: ".abs_section_2d"
+  _ASM_Data_B 
+SECTION: ".abs_section_2e"
+  _ASM_Data_C 
+SECTION: ".abs_section_2f"
+  _ASM_Data_D 
+SECTION: ".abs_section_30"
+  _ASM_Data_E 
+SECTION: ".abs_section_31"
+  _ASM_Data_F 
+SECTION: ".abs_section_32"
+  _KBI1SC 
+SECTION: ".abs_section_33"
+  _KBI1PE 
+SECTION: ".abs_section_34"
+  _KBI1ES 
+SECTION: ".abs_section_35"
+  _KBI2SC 
+SECTION: ".abs_section_36"
+  _KBI2PE 
+SECTION: ".abs_section_37"
+  _KBI2ES 
+SECTION: ".abs_section_3a"
+  _SCIC1 
+SECTION: ".abs_section_3b"
+  _SCIC2 
+SECTION: ".abs_section_3c"
+  _SCIS1 
+SECTION: ".abs_section_3d"
+  _SCIS2 
+SECTION: ".abs_section_3e"
+  _SCIC3 
+SECTION: ".abs_section_3f"
+  _SCID 
+SECTION: ".abs_section_40"
+  _PHY_TXD_ADR_PNTR0 
+SECTION: ".abs_section_41"
+  _PHY_TXD_ADR_PNTR1 
+SECTION: ".abs_section_42"
+  _PHY_RXD_ADR_PNTR0 
+SECTION: ".abs_section_43"
+  _PHY_RXD_ADR_PNTR1 
+SECTION: ".abs_section_44"
+  _PHY_CNTRL1 
+SECTION: ".abs_section_45"
+  _PHY_CNTRL2 
+SECTION: ".abs_section_46"
+  _PHY_CNTRL3 
+SECTION: ".abs_section_47"
+  _PHY_CNTRL4 
+SECTION: ".abs_section_48"
+  _PHY_SRC_CNTRL 
+SECTION: ".abs_section_49"
+  _PHY_SRC_ADDRS_SUM_DATA0 
+SECTION: ".abs_section_4a"
+  _PHY_SRC_ADDRS_SUM_DATA1 
+SECTION: ".abs_section_4b"
+  _PHY_RX_WTR_MARK 
+SECTION: ".abs_section_4c"
+  _PHY_RX_BYTE_COUNT 
+SECTION: ".abs_section_4d"
+  _PHY_STATUS1 
+SECTION: ".abs_section_4e"
+  _PHY_STATUS2 
+SECTION: ".abs_section_50"
+  _PHY_CCAFNL 
+SECTION: ".abs_section_51"
+  _PHY_EVENT_TMR0 
+SECTION: ".abs_section_52"
+  _PHY_EVENT_TMR1 
+SECTION: ".abs_section_53"
+  _PHY_EVENT_TMR2 
+SECTION: ".abs_section_54"
+  _PHY_TIMESTAMP0 
+SECTION: ".abs_section_55"
+  _PHY_TIMESTAMP1 
+SECTION: ".abs_section_56"
+  _PHY_TIMESTAMP2 
+SECTION: ".abs_section_57"
+  _PHY_T3CMP0 
+SECTION: ".abs_section_58"
+  _PHY_T3CMP1 
+SECTION: ".abs_section_59"
+  _PHY_T3CMP2 
+SECTION: ".abs_section_5a"
+  _PHY_TC2_PRIME0 
+SECTION: ".abs_section_5b"
+  _PHY_TC2_PRIME1 
+SECTION: ".abs_section_5c"
+  _PHY_MACSHORTADDRS0 
+SECTION: ".abs_section_5d"
+  _PHY_MACSHORTADDRS1 
+SECTION: ".abs_section_5e"
+  _PHY_MACPANID0 
+SECTION: ".abs_section_5f"
+  _PHY_MACPANID1 
+SECTION: ".abs_section_64"
+  _CMTOC 
+SECTION: ".abs_section_65"
+  _CMTMSC 
+SECTION: ".abs_section_6a"
+  _IICA 
+SECTION: ".abs_section_6b"
+  _IICF 
+SECTION: ".abs_section_6c"
+  _IICC1 
+SECTION: ".abs_section_6d"
+  _IICS 
+SECTION: ".abs_section_6e"
+  _IICD 
+SECTION: ".abs_section_6f"
+  _IICC2 
+SECTION: ".abs_section_70"
+  _SPIC1 
+SECTION: ".abs_section_71"
+  _SPIC2 
+SECTION: ".abs_section_72"
+  _SPIBR 
+SECTION: ".abs_section_73"
+  _SPIS 
+SECTION: ".abs_section_75"
+  _SPID 
+SECTION: ".abs_section_76"
+  _IRQSC 
+SECTION: ".abs_section_78"
+  _PPAGE 
+SECTION: ".abs_section_79"
+  _LAP2 
+SECTION: ".abs_section_7a"
+  _LAP1 
+SECTION: ".abs_section_7b"
+  _LAP0 
+SECTION: ".abs_section_7c"
+  _LWP 
+SECTION: ".abs_section_7d"
+  _LBP 
+SECTION: ".abs_section_7e"
+  _LB 
+SECTION: ".abs_section_7f"
+  _LAPAB 
+SECTION: ".abs_section_1800"
+  _SRS 
+SECTION: ".abs_section_1801"
+  _SBDFR 
+SECTION: ".abs_section_1802"
+  _SOPT1 
+SECTION: ".abs_section_1803"
+  _SOPT2 
+SECTION: ".abs_section_1804"
+  _SCIC4 
+SECTION: ".abs_section_1808"
+  _SPMSC1 
+SECTION: ".abs_section_1809"
+  _SPMSC2 
+SECTION: ".abs_section_180b"
+  _SPMSC3 
+SECTION: ".abs_section_180c"
+  _SOMC1 
+SECTION: ".abs_section_180d"
+  _SOMC2 
+SECTION: ".abs_section_180e"
+  _SCGC1 
+SECTION: ".abs_section_180f"
+  _SCGC2 
+SECTION: ".abs_section_1818"
+  _DBGCAX 
+SECTION: ".abs_section_1819"
+  _DBGCBX 
+SECTION: ".abs_section_181a"
+  _DBGCCX 
+SECTION: ".abs_section_181b"
+  _DBGFX 
+SECTION: ".abs_section_181c"
+  _DBGC 
+SECTION: ".abs_section_181d"
+  _DBGT 
+SECTION: ".abs_section_181e"
+  _DBGS 
+SECTION: ".abs_section_181f"
+  _DBGCNT 
+SECTION: ".abs_section_1821"
+  _FOPT 
+SECTION: ".abs_section_1823"
+  _FCNFG 
+SECTION: ".abs_section_1824"
+  _FPROT 
+SECTION: ".abs_section_1825"
+  _FSTAT 
+SECTION: ".abs_section_1826"
+  _FCMD 
+SECTION: ".abs_section_1828"
+  _RTCSC 
+SECTION: ".abs_section_1829"
+  _RTCCNTL 
+SECTION: ".abs_section_182a"
+  _RTCMODL 
+SECTION: ".abs_section_182b"
+  _RTCCNTH 
+SECTION: ".abs_section_182c"
+  _RTCMODH 
+SECTION: ".abs_section_1830"
+  _PTAPE 
+SECTION: ".abs_section_1831"
+  _PTASE 
+SECTION: ".abs_section_1832"
+  _PTADS 
+SECTION: ".abs_section_1834"
+  _PTBPE 
+SECTION: ".abs_section_1835"
+  _PTBSE 
+SECTION: ".abs_section_1836"
+  _PTBDS 
+SECTION: ".abs_section_1838"
+  _PTCPE 
+SECTION: ".abs_section_1839"
+  _PTCSE 
+SECTION: ".abs_section_183a"
+  _PTCDS 
+SECTION: ".abs_section_183c"
+  _PTDPE 
+SECTION: ".abs_section_183d"
+  _PTDSE 
+SECTION: ".abs_section_183e"
+  _PTDDS 
+SECTION: ".abs_section_1840"
+  _PHY_T1CMP0 
+SECTION: ".abs_section_1841"
+  _PHY_T1CMP1 
+SECTION: ".abs_section_1842"
+  _PHY_T1CMP2 
+SECTION: ".abs_section_1843"
+  _PHY_T2CMP0 
+SECTION: ".abs_section_1844"
+  _PHY_T2CMP1 
+SECTION: ".abs_section_1845"
+  _PHY_T2CMP2 
+SECTION: ".abs_section_1846"
+  _PHY_T4CMP0 
+SECTION: ".abs_section_1847"
+  _PHY_T4CMP1 
+SECTION: ".abs_section_1848"
+  _PHY_T4CMP2 
+SECTION: ".abs_section_1849"
+  _PHY_LO1_FRAC0 
+SECTION: ".abs_section_184a"
+  _PHY_LO1_FRAC1 
+SECTION: ".abs_section_184b"
+  _PHY_LO1_INT 
+SECTION: ".abs_section_184c"
+  _PHY_PA_PWR_CNTL 
+SECTION: ".abs_section_184d"
+  _PHY_MACLONGADDRS0 
+SECTION: ".abs_section_184e"
+  _PHY_MACLONGADDRS1 
+SECTION: ".abs_section_184f"
+  _PHY_MACLONGADDRS2 
+SECTION: ".abs_section_1850"
+  _PHY_MACLONGADDRS3 
+SECTION: ".abs_section_1851"
+  _PHY_MACLONGADDRS4 
+SECTION: ".abs_section_1852"
+  _PHY_MACLONGADDRS5 
+SECTION: ".abs_section_1853"
+  _PHY_MACLONGADDRS6 
+SECTION: ".abs_section_1854"
+  _PHY_MACLONGADDRS7 
+SECTION: ".abs_section_1855"
+  _PHY_MAXFRAMELENGTH 
+SECTION: ".abs_section_1856"
+  _PHY_RX_FRAME_FILTER 
+SECTION: ".abs_section_1857"
+  _PHY_MACFRAMEVER 
+SECTION: ".abs_section_1858"
+  _PHY_CCA_THRESHOLD 
+SECTION: ".abs_section_1859"
+  _PHY_CCA_OFFSET_CMP 
+SECTION: ".abs_section_185a"
+  _PHY_FSM 
+SECTION: ".abs_section_185b"
+  _PHY_INDIRECT_ACCESS_INDEX 
+SECTION: ".abs_section_185c"
+  _PHY_INDIRECT_ACCESS_DATA 
+SECTION: ".abs_section_1860"
+  _TPM4SC 
+SECTION: ".abs_section_1865"
+  _TPM4C0SC 
+SECTION: ".abs_section_9"
+  _TPM1CNT 
+SECTION: ".abs_section_b"
+  _TPM1MOD 
+SECTION: ".abs_section_e"
+  _TPM1C0V 
+SECTION: ".abs_section_11"
+  _TPM2CNT 
+SECTION: ".abs_section_13"
+  _TPM2MOD 
+SECTION: ".abs_section_16"
+  _TPM2C0V 
+SECTION: ".abs_section_19"
+  _TPM3CNT 
+SECTION: ".abs_section_1b"
+  _TPM3MOD 
+SECTION: ".abs_section_1e"
+  _TPM3C0V 
+SECTION: ".abs_section_38"
+  _SCIBD 
+SECTION: ".abs_section_60"
+  _CMTCG1 
+SECTION: ".abs_section_62"
+  _CMTCG2 
+SECTION: ".abs_section_66"
+  _CMTCMD12 
+SECTION: ".abs_section_68"
+  _CMTCMD34 
+SECTION: ".abs_section_1806"
+  _SDID 
+SECTION: ".abs_section_1810"
+  _DBGCA 
+SECTION: ".abs_section_1812"
+  _DBGCB 
+SECTION: ".abs_section_1814"
+  _DBGCC 
+SECTION: ".abs_section_1816"
+  _DBGF 
+SECTION: ".abs_section_1861"
+  _TPM4CNT 
+SECTION: ".abs_section_1863"
+  _TPM4MOD 
+SECTION: ".abs_section_1866"
+  _TPM4C0V 
+
+*********************************************************************************************
+OBJECT LIST SORTED BY ADDRESS
+     Name                                      Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+     _PTAD                                        0       1       1       6   .abs_section_0
+     _PTADD                                       1       1       1       2   .abs_section_1
+     _PTBD                                        2       1       1       2   .abs_section_2
+     _PTBDD                                       3       1       1       3   .abs_section_3
+     _PTCD                                        4       1       1       1   .abs_section_4
+     _PTCDD                                       5       1       1       1   .abs_section_5
+     _PTDD                                        6       1       1       6   .abs_section_6
+     _PTDDD                                       7       1       1       2   .abs_section_7
+     _TPM1SC                                      8       1       1       0   .abs_section_8
+     _TPM1CNT                                     9       2       2       0   .abs_section_9
+     _TPM1MOD                                     B       2       2       0   .abs_section_b
+     _TPM1C0SC                                    D       1       1       0   .abs_section_d
+     _TPM1C0V                                     E       2       2       0   .abs_section_e
+     _TPM2SC                                     10       1       1       0   .abs_section_10
+     _TPM2CNT                                    11       2       2       0   .abs_section_11
+     _TPM2MOD                                    13       2       2       0   .abs_section_13
+     _TPM2C0SC                                   15       1       1       0   .abs_section_15
+     _TPM2C0V                                    16       2       2       0   .abs_section_16
+     _TPM3SC                                     18       1       1       0   .abs_section_18
+     _TPM3CNT                                    19       2       2       0   .abs_section_19
+     _TPM3MOD                                    1B       2       2       0   .abs_section_1b
+     _TPM3C0SC                                   1D       1       1       0   .abs_section_1d
+     _TPM3C0V                                    1E       2       2       0   .abs_section_1e
+     _AES_CONTROL1                               20       1       1       0   .abs_section_20
+     _AES_CONTROL2                               21       1       1       0   .abs_section_21
+     _ASM_Data_0                                 22       1       1       0   .abs_section_22
+     _ASM_Data_1                                 23       1       1       0   .abs_section_23
+     _ASM_Data_2                                 24       1       1       0   .abs_section_24
+     _ASM_Data_3                                 25       1       1       0   .abs_section_25
+     _ASM_Data_4                                 26       1       1       0   .abs_section_26
+     _ASM_Data_5                                 27       1       1       0   .abs_section_27
+     _ASM_Data_6                                 28       1       1       0   .abs_section_28
+     _ASM_Data_7                                 29       1       1       0   .abs_section_29
+     _ASM_Data_8                                 2A       1       1       0   .abs_section_2a
+     _ASM_Data_9                                 2B       1       1       0   .abs_section_2b
+     _ASM_Data_A                                 2C       1       1       0   .abs_section_2c
+     _ASM_Data_B                                 2D       1       1       0   .abs_section_2d
+     _ASM_Data_C                                 2E       1       1       0   .abs_section_2e
+     _ASM_Data_D                                 2F       1       1       0   .abs_section_2f
+     _ASM_Data_E                                 30       1       1       0   .abs_section_30
+     _ASM_Data_F                                 31       1       1       0   .abs_section_31
+     _KBI1SC                                     32       1       1       2   .abs_section_32
+     _KBI1PE                                     33       1       1       3   .abs_section_33
+     _KBI1ES                                     34       1       1       0   .abs_section_34
+     _KBI2SC                                     35       1       1       0   .abs_section_35
+     _KBI2PE                                     36       1       1       0   .abs_section_36
+     _KBI2ES                                     37       1       1       0   .abs_section_37
+     _SCIBD                                      38       2       2       0   .abs_section_38
+     _SCIC1                                      3A       1       1       0   .abs_section_3a
+     _SCIC2                                      3B       1       1       0   .abs_section_3b
+     _SCIS1                                      3C       1       1       0   .abs_section_3c
+     _SCIS2                                      3D       1       1       0   .abs_section_3d
+     _SCIC3                                      3E       1       1       0   .abs_section_3e
+     _SCID                                       3F       1       1       0   .abs_section_3f
+     _PHY_TXD_ADR_PNTR0                          40       1       1       0   .abs_section_40
+     _PHY_TXD_ADR_PNTR1                          41       1       1       0   .abs_section_41
+     _PHY_RXD_ADR_PNTR0                          42       1       1       0   .abs_section_42
+     _PHY_RXD_ADR_PNTR1                          43       1       1       0   .abs_section_43
+     _PHY_CNTRL1                                 44       1       1       0   .abs_section_44
+     _PHY_CNTRL2                                 45       1       1       0   .abs_section_45
+     _PHY_CNTRL3                                 46       1       1       0   .abs_section_46
+     _PHY_CNTRL4                                 47       1       1       0   .abs_section_47
+     _PHY_SRC_CNTRL                              48       1       1       0   .abs_section_48
+     _PHY_SRC_ADDRS_SUM_DATA0                    49       1       1       0   .abs_section_49
+     _PHY_SRC_ADDRS_SUM_DATA1                    4A       1       1       0   .abs_section_4a
+     _PHY_RX_WTR_MARK                            4B       1       1       0   .abs_section_4b
+     _PHY_RX_BYTE_COUNT                          4C       1       1       0   .abs_section_4c
+     _PHY_STATUS1                                4D       1       1       0   .abs_section_4d
+     _PHY_STATUS2                                4E       1       1       0   .abs_section_4e
+     _PHY_CCAFNL                                 50       1       1       0   .abs_section_50
+     _PHY_EVENT_TMR0                             51       1       1       0   .abs_section_51
+     _PHY_EVENT_TMR1                             52       1       1       0   .abs_section_52
+     _PHY_EVENT_TMR2                             53       1       1       0   .abs_section_53
+     _PHY_TIMESTAMP0                             54       1       1       0   .abs_section_54
+     _PHY_TIMESTAMP1                             55       1       1       0   .abs_section_55
+     _PHY_TIMESTAMP2                             56       1       1       0   .abs_section_56
+     _PHY_T3CMP0                                 57       1       1       0   .abs_section_57
+     _PHY_T3CMP1                                 58       1       1       0   .abs_section_58
+     _PHY_T3CMP2                                 59       1       1       0   .abs_section_59
+     _PHY_TC2_PRIME0                             5A       1       1       0   .abs_section_5a
+     _PHY_TC2_PRIME1                             5B       1       1       0   .abs_section_5b
+     _PHY_MACSHORTADDRS0                         5C       1       1       0   .abs_section_5c
+     _PHY_MACSHORTADDRS1                         5D       1       1       0   .abs_section_5d
+     _PHY_MACPANID0                              5E       1       1       0   .abs_section_5e
+     _PHY_MACPANID1                              5F       1       1       0   .abs_section_5f
+     _CMTCG1                                     60       2       2       0   .abs_section_60
+     _CMTCG2                                     62       2       2       0   .abs_section_62
+     _CMTOC                                      64       1       1       0   .abs_section_64
+     _CMTMSC                                     65       1       1       0   .abs_section_65
+     _CMTCMD12                                   66       2       2       0   .abs_section_66
+     _CMTCMD34                                   68       2       2       0   .abs_section_68
+     _IICA                                       6A       1       1       0   .abs_section_6a
+     _IICF                                       6B       1       1       0   .abs_section_6b
+     _IICC1                                      6C       1       1       0   .abs_section_6c
+     _IICS                                       6D       1       1       0   .abs_section_6d
+     _IICD                                       6E       1       1       0   .abs_section_6e
+     _IICC2                                      6F       1       1       0   .abs_section_6f
+     _SPIC1                                      70       1       1       0   .abs_section_70
+     _SPIC2                                      71       1       1       0   .abs_section_71
+     _SPIBR                                      72       1       1       0   .abs_section_72
+     _SPIS                                       73       1       1       0   .abs_section_73
+     _SPID                                       75       1       1       0   .abs_section_75
+     _IRQSC                                      76       1       1       0   .abs_section_76
+     _PPAGE                                      78       1       1       0   .abs_section_78
+     _LAP2                                       79       1       1       0   .abs_section_79
+     _LAP1                                       7A       1       1       0   .abs_section_7a
+     _LAP0                                       7B       1       1       0   .abs_section_7b
+     _LWP                                        7C       1       1       0   .abs_section_7c
+     _LBP                                        7D       1       1       0   .abs_section_7d
+     _LB                                         7E       1       1       0   .abs_section_7e
+     _LAPAB                                      7F       1       1       0   .abs_section_7f
+     flag                                       100       1       1       2   .bss        
+     count                                      101       1       1       5   .bss        
+     _SRS                                      1800       1       1       0   .abs_section_1800
+     _SBDFR                                    1801       1       1       0   .abs_section_1801
+     _SOPT1                                    1802       1       1       1   .abs_section_1802
+     _SOPT2                                    1803       1       1       0   .abs_section_1803
+     _SCIC4                                    1804       1       1       0   .abs_section_1804
+     _SDID                                     1806       2       2       0   .abs_section_1806
+     _SPMSC1                                   1808       1       1       0   .abs_section_1808
+     _SPMSC2                                   1809       1       1       0   .abs_section_1809
+     _SPMSC3                                   180B       1       1       0   .abs_section_180b
+     _SOMC1                                    180C       1       1       0   .abs_section_180c
+     _SOMC2                                    180D       1       1       0   .abs_section_180d
+     _SCGC1                                    180E       1       1       0   .abs_section_180e
+     _SCGC2                                    180F       1       1       0   .abs_section_180f
+     _DBGCA                                    1810       2       2       0   .abs_section_1810
+     _DBGCB                                    1812       2       2       0   .abs_section_1812
+     _DBGCC                                    1814       2       2       0   .abs_section_1814
+     _DBGF                                     1816       2       2       0   .abs_section_1816
+     _DBGCAX                                   1818       1       1       0   .abs_section_1818
+     _DBGCBX                                   1819       1       1       0   .abs_section_1819
+     _DBGCCX                                   181A       1       1       0   .abs_section_181a
+     _DBGFX                                    181B       1       1       0   .abs_section_181b
+     _DBGC                                     181C       1       1       0   .abs_section_181c
+     _DBGT                                     181D       1       1       0   .abs_section_181d
+     _DBGS                                     181E       1       1       0   .abs_section_181e
+     _DBGCNT                                   181F       1       1       0   .abs_section_181f
+     _FOPT                                     1821       1       1       0   .abs_section_1821
+     _FCNFG                                    1823       1       1       0   .abs_section_1823
+     _FPROT                                    1824       1       1       0   .abs_section_1824
+     _FSTAT                                    1825       1       1       0   .abs_section_1825
+     _FCMD                                     1826       1       1       0   .abs_section_1826
+     _RTCSC                                    1828       1       1       0   .abs_section_1828
+     _RTCCNTL                                  1829       1       1       0   .abs_section_1829
+     _RTCMODL                                  182A       1       1       0   .abs_section_182a
+     _RTCCNTH                                  182B       1       1       0   .abs_section_182b
+     _RTCMODH                                  182C       1       1       0   .abs_section_182c
+     _PTAPE                                    1830       1       1       0   .abs_section_1830
+     _PTASE                                    1831       1       1       0   .abs_section_1831
+     _PTADS                                    1832       1       1       0   .abs_section_1832
+     _PTBPE                                    1834       1       1       1   .abs_section_1834
+     _PTBSE                                    1835       1       1       0   .abs_section_1835
+     _PTBDS                                    1836       1       1       0   .abs_section_1836
+     _PTCPE                                    1838       1       1       0   .abs_section_1838
+     _PTCSE                                    1839       1       1       0   .abs_section_1839
+     _PTCDS                                    183A       1       1       0   .abs_section_183a
+     _PTDPE                                    183C       1       1       0   .abs_section_183c
+     _PTDSE                                    183D       1       1       0   .abs_section_183d
+     _PTDDS                                    183E       1       1       0   .abs_section_183e
+     _PHY_T1CMP0                               1840       1       1       0   .abs_section_1840
+     _PHY_T1CMP1                               1841       1       1       0   .abs_section_1841
+     _PHY_T1CMP2                               1842       1       1       0   .abs_section_1842
+     _PHY_T2CMP0                               1843       1       1       0   .abs_section_1843
+     _PHY_T2CMP1                               1844       1       1       0   .abs_section_1844
+     _PHY_T2CMP2                               1845       1       1       0   .abs_section_1845
+     _PHY_T4CMP0                               1846       1       1       0   .abs_section_1846
+     _PHY_T4CMP1                               1847       1       1       0   .abs_section_1847
+     _PHY_T4CMP2                               1848       1       1       0   .abs_section_1848
+     _PHY_LO1_FRAC0                            1849       1       1       0   .abs_section_1849
+     _PHY_LO1_FRAC1                            184A       1       1       0   .abs_section_184a
+     _PHY_LO1_INT                              184B       1       1       0   .abs_section_184b
+     _PHY_PA_PWR_CNTL                          184C       1       1       0   .abs_section_184c
+     _PHY_MACLONGADDRS0                        184D       1       1       0   .abs_section_184d
+     _PHY_MACLONGADDRS1                        184E       1       1       0   .abs_section_184e
+     _PHY_MACLONGADDRS2                        184F       1       1       0   .abs_section_184f
+     _PHY_MACLONGADDRS3                        1850       1       1       0   .abs_section_1850
+     _PHY_MACLONGADDRS4                        1851       1       1       0   .abs_section_1851
+     _PHY_MACLONGADDRS5                        1852       1       1       0   .abs_section_1852
+     _PHY_MACLONGADDRS6                        1853       1       1       0   .abs_section_1853
+     _PHY_MACLONGADDRS7                        1854       1       1       0   .abs_section_1854
+     _PHY_MAXFRAMELENGTH                       1855       1       1       0   .abs_section_1855
+     _PHY_RX_FRAME_FILTER                      1856       1       1       0   .abs_section_1856
+     _PHY_MACFRAMEVER                          1857       1       1       0   .abs_section_1857
+     _PHY_CCA_THRESHOLD                        1858       1       1       0   .abs_section_1858
+     _PHY_CCA_OFFSET_CMP                       1859       1       1       0   .abs_section_1859
+     _PHY_FSM                                  185A       1       1       0   .abs_section_185a
+     _PHY_INDIRECT_ACCESS_INDEX                185B       1       1       0   .abs_section_185b
+     _PHY_INDIRECT_ACCESS_DATA                 185C       1       1       0   .abs_section_185c
+     _TPM4SC                                   1860       1       1       0   .abs_section_1860
+     _TPM4CNT                                  1861       2       2       0   .abs_section_1861
+     _TPM4MOD                                  1863       2       2       0   .abs_section_1863
+     _TPM4C0SC                                 1865       1       1       0   .abs_section_1865
+     _TPM4C0V                                  1866       2       2       0   .abs_section_1866
+     loadByte                                  2080       E      14       5   .init       
+     Init                                      208E      6D     109       1   .init       
+     _Startup                                  20FB       9       9       0   .init       
+     main                                      2112       9       9       1   .text       
+     init_device                               211B      39      57       1   .text       
+     main_control                              2154      77     119       1   .text       
+     IntKey                                    21CB      19      25       1   .text       
+     const_vect                                FFCE       2       2       0   .abs_section_ffce
+
+*********************************************************************************************
+UNUSED-OBJECTS SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+COPYDOWN SECTION
+---------------------------------------------------------------------------------------------
+------- ROM-ADDRESS: 0x21E4 ---- SIZE       4 ---
+Filling bytes inserted
+ 0002FFCE
+------- ROM-ADDRESS: 0x21E8 ---- RAM-ADDRESS: 0xFFCE ---- SIZE       2 ---
+Name of initialized Object : const_vect
+ 21CB
+------- ROM-ADDRESS: 0x21EA ---- SIZE       2 ---
+Filling bytes inserted
+ 0000
+
+*********************************************************************************************
+OBJECT-DEPENDENCIES SECTION
+---------------------------------------------------------------------------------------------
+Init                      USES _startupData loadByte 
+_Startup                  USES __SEG_END_SSTACK Init main 
+main                      USES init_device main_control 
+init_device               USES _SOPT1 _PTCDD _PTCD _PTBDD _KBI1PE _PTBPE 
+                                _PTADD _PTDDD _PTAD _PTDD _KBI1SC 
+main_control              USES count _PTAD _PTDD flag 
+IntKey                    USES _PTBD flag count _KBI1SC 
+const_vect                USES IntKey 
+
+*********************************************************************************************
+DEPENDENCY TREE
+*********************************************************************************************
+ main and _Startup Group
+ | 
+ +- main                
+ |  | 
+ |  +- init_device         
+ |  |    
+ |  +- main_control        
+ |       
+ +- _Startup            
+    | 
+    +- Init                
+    |  | 
+    |  +- loadByte            
+    |       
+    +- main                 (see above)
+       
+ const_vect          
+ | 
+ +- IntKey              
+      
+*********************************************************************************************
+STATISTIC SECTION
+---------------------------------------------------------------------------------------------
+
+ExeFile:
+--------
+Number of blocks to be downloaded: 4
+Total size of all blocks to be downloaded: 366
+

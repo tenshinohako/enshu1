@@ -1,0 +1,11 @@
+Project_Settings/Startup_Code/start08.c
+Sources/main.c
+Project_Headers/derivative.h
+Project_Headers/mc13233c.h
+Lib/mc13233c.c
+Project_Settings/Linker_Files/Project.prm
+Project_Settings/Linker_Files/burner.bbl
+Project_Settings/Debugger/MC13233C.mem
+Project_Settings/Debugger/MC13233C.tcl
+.settings/com.freescale.core.ide.newprojectwizard.prefs
+ReferencedRSESystems.xml

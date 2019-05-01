@@ -703,9 +703,8 @@ static uint8_t App_HandleAssociateConfirm(nwkMessage_t *pMsg)
   extern uint8_t aExtendedAddress[8];
   
   uint8_t pValue = TRUE;
-  (void)App_SetMacPib((uint8_t)gMPibRxOnWhenIdle_c, &pValue);
-  //(void)App_SetMacPib((uint8_t)0x52, &pValue);
-  
+  //(void)App_SetMacPib((uint8_t)gMPibRxOnWhenIdle_c, &pValue);
+  (void)App_SetMacPib((uint8_t)0x52, &pValue);
   /* If the coordinator assigns a short address of 0xfffe then,
      that means we must use our own extended address in all
      communications with the coordinator. Otherwise, we use

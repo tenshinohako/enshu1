@@ -703,8 +703,7 @@ static uint8_t App_HandleAssociateConfirm(nwkMessage_t *pMsg)
   extern uint8_t aExtendedAddress[8];
   
   uint8_t pValue = TRUE;
-  (void)App_SetMacPib((uint8_t)gMPibRxOnWhenIdle_c, &pValue);
-  //(void)App_SetMacPib((uint8_t)0x52, &pValue);
+  (void)App_SetMacPib((uint8_t)0x52, &pValue);
   
   /* If the coordinator assigns a short address of 0xfffe then,
      that means we must use our own extended address in all
@@ -735,14 +734,14 @@ static uint8_t App_HandleAssociateConfirm(nwkMessage_t *pMsg)
 }
 
 static uint8_t App_SetMacPib(uint8_t attribute, uint8_t *pValue){
-	mlmeMessage_t mlmeSet;
+  mlmeMessage_t mlmeSet;
 	
-	/* Create and execute the Set request */
-	mlmeSet.msgType = gMlmeSetReq_c;
-	mlmeSet.msgData.setReq.pibAttribute = attribute;
-	mlmeSet.msgData.setReq.pibAttributeValue = pValue;
+  /* Create and execute the Set request */
+  mlmeSet.msgType = gMlmeSetReq_c;
+  mlmeSet.msgData.setReq.pibAttribute = attribute;
+  mlmeSet.msgData.setReq.pibAttributeValue = pValue;
 	
-	return MSG_Send(NWK_MLME, &mlmeSet);
+  return MSG_Send(NWK_MLME, &mlmeSet);
 }
 
 

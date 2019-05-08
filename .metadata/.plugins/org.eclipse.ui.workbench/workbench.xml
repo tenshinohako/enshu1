@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
-<window height="798" maximized="true" width="1300" x="-36" y="-17">
+<window height="798" maximized="true" width="1300" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -35,36 +35,36 @@
 <part id="1"/>
 <part id="0"/>
 <part id="2"/>
-<part id="5"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ApplicationConf.h" partName="ApplicationConf.h" path="D:/Users/ryohk/workspace/kadai1(End Device)/Application/Configure/ApplicationConf.h" title="ApplicationConf.h" tooltip="kadai1(End Device)/Application/Configure/ApplicationConf.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai1(End Device)/Application/Configure/ApplicationConf.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1862" selectionTopPixel="369"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.c" partName="MApp.c" path="D:/Users/ryohk/workspace/kadai2(Coordinator)/Application/Source/MApp.c" title="MApp.c" tooltip="kadai2(Coordinator)/Application/Source/MApp.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai2(Coordinator)/Application/Source/MApp.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="446" selectionTopPixel="12716"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ApplicationConf.h" partName="ApplicationConf.h" path="D:/Users/ryohk/workspace/kadai1(Coordinator)/Application/Configure/ApplicationConf.h" title="ApplicationConf.h" tooltip="kadai1(Coordinator)/Application/Configure/ApplicationConf.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai1(Coordinator)/Application/Configure/ApplicationConf.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="438" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ApplicationConf.h" partName="ApplicationConf.h" path="D:/Users/ryohk/workspace/kadai2(Coordinator)/Application/Configure/ApplicationConf.h" title="ApplicationConf.h" tooltip="kadai2(Coordinator)/Application/Configure/ApplicationConf.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai2(Coordinator)/Application/Configure/ApplicationConf.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2635" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.h" partName="MApp.h" path="D:/Users/ryohk/workspace/kadai1(Coordinator)/Application/Source/MApp.h" title="MApp.h" tooltip="kadai1(Coordinator)/Application/Source/MApp.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai1(Coordinator)/Application/Source/MApp.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1020"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.h" partName="MApp.h" path="D:/Users/ryohk/workspace/kadai2(Coordinator)/Application/Source/MApp.h" title="MApp.h" tooltip="kadai2(Coordinator)/Application/Source/MApp.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai2(Coordinator)/Application/Source/MApp.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3504" selectionTopPixel="1080"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.c" partName="MApp.c" path="D:/Users/ryohk/workspace/kadai1(Coordinator)/Application/Source/MApp.c" title="MApp.c" tooltip="kadai1(Coordinator)/Application/Source/MApp.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai1(Coordinator)/Application/Source/MApp.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="30675" selectionTopPixel="13172"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ApplicationConf.h" partName="ApplicationConf.h" path="D:/Users/ryohk/workspace/kadai2(End Device)/Application/Configure/ApplicationConf.h" title="ApplicationConf.h" tooltip="kadai2(End Device)/Application/Configure/ApplicationConf.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai2(End Device)/Application/Configure/ApplicationConf.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2635" selectionTopPixel="579"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.c" partName="MApp.c" path="D:/Users/ryohk/workspace/kadai1(End Device)/Application/Source/MApp.c" title="MApp.c" tooltip="kadai1(End Device)/Application/Source/MApp.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai1(End Device)/Application/Source/MApp.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="28946" selectionTopPixel="12079"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.c" partName="MApp.c" path="D:/Users/ryohk/workspace/kadai2(End Device)/Application/Source/MApp.c" title="MApp.c" tooltip="kadai2(End Device)/Application/Source/MApp.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai2(End Device)/Application/Source/MApp.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14641" selectionTopPixel="6543"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.h" partName="MApp.h" path="D:/Users/ryohk/workspace/kadai1(End Device)/Application/Source/MApp.h" title="MApp.h" tooltip="kadai1(End Device)/Application/Source/MApp.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai1(End Device)/Application/Source/MApp.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2021" selectionTopPixel="420"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.h" partName="MApp.h" path="D:/Users/ryohk/workspace/kadai2(End Device)/Application/Source/MApp.h" title="MApp.h" tooltip="kadai2(End Device)/Application/Source/MApp.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kadai2(End Device)/Application/Source/MApp.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2019" selectionTopPixel="300"/>
 </editor>
 </editors>
 <views>
@@ -100,29 +100,20 @@
 <viewState/>
 </view>
 <view id="com.freescale.core.ide.projectsview.ProjectsView" partName="CodeWarrior Projects">
-<viewState horizontalPosition="0" verticalPosition="14">
+<viewState horizontalPosition="0" verticalPosition="12">
 <expanded>
-<element path="kadai1  :  FLASH"/>
-<element path="kadai1  :  FLASH--restore_state_delimiter--Sources"/>
-<element path="kadai1(Coordinator)  :  MyWirelessApp Demo Beacon (Coordinator)"/>
-<element path="kadai1(Coordinator)  :  MyWirelessApp Demo Beacon (Coordinator)--restore_state_delimiter--Application"/>
-<element path="kadai1(Coordinator)  :  MyWirelessApp Demo Beacon (Coordinator)--restore_state_delimiter--Application--restore_state_delimiter--Configure"/>
-<element path="kadai1(Coordinator)  :  MyWirelessApp Demo Beacon (Coordinator)--restore_state_delimiter--Application--restore_state_delimiter--Source"/>
-<element path="kadai1(End Device)  :  MyWirelessApp Demo Beacon (End Device)"/>
-<element path="kadai1(End Device)  :  MyWirelessApp Demo Beacon (End Device)--restore_state_delimiter--Application"/>
-<element path="kadai1(End Device)  :  MyWirelessApp Demo Beacon (End Device)--restore_state_delimiter--Application--restore_state_delimiter--Configure"/>
-<element path="kadai1(End Device)  :  MyWirelessApp Demo Beacon (End Device)--restore_state_delimiter--Application--restore_state_delimiter--Interface"/>
-<element path="kadai1(End Device)  :  MyWirelessApp Demo Beacon (End Device)--restore_state_delimiter--Application--restore_state_delimiter--Source"/>
-<element path="kadai1(End Device)  :  MyWirelessApp Demo Beacon (End Device)--restore_state_delimiter--MacPhy"/>
-<element path="kadai1(End Device)  :  MyWirelessApp Demo Beacon (End Device)--restore_state_delimiter--MacPhy--restore_state_delimiter--Interface"/>
-<element path="kadai2  :  FLASH"/>
-<element path="kadai2  :  FLASH--restore_state_delimiter--Sources"/>
-<element path="kadai3  :  FLASH"/>
-<element path="kadai3  :  FLASH--restore_state_delimiter--Sources"/>
-<element path="project  :  FLASH"/>
-<element path="project  :  FLASH--restore_state_delimiter--Sources"/>
-<element path="project  :  FLASH--restore_state_delimiter--Sources--restore_state_delimiter--main.c"/>
+<element path="kadai2(Coordinator)  :  MyWirelessApp Demo Beacon (Coordinator)"/>
+<element path="kadai2(Coordinator)  :  MyWirelessApp Demo Beacon (Coordinator)--restore_state_delimiter--Application"/>
+<element path="kadai2(Coordinator)  :  MyWirelessApp Demo Beacon (Coordinator)--restore_state_delimiter--Application--restore_state_delimiter--Configure"/>
+<element path="kadai2(Coordinator)  :  MyWirelessApp Demo Beacon (Coordinator)--restore_state_delimiter--Application--restore_state_delimiter--Source"/>
+<element path="kadai2(End Device)  :  MyWirelessApp Demo Beacon (End Device)"/>
+<element path="kadai2(End Device)  :  MyWirelessApp Demo Beacon (End Device)--restore_state_delimiter--Application"/>
+<element path="kadai2(End Device)  :  MyWirelessApp Demo Beacon (End Device)--restore_state_delimiter--Application--restore_state_delimiter--Configure"/>
+<element path="kadai2(End Device)  :  MyWirelessApp Demo Beacon (End Device)--restore_state_delimiter--Application--restore_state_delimiter--Source"/>
 </expanded>
+<selection>
+<element path="D:/Users/ryohk/workspace/kadai2(End Device)/Application/Source/MApp.h"/>
+</selection>
 <customFilters userDefinedPatternsEnabled="false">
 <xmlDefinedFilters>
 <child filterId="org.eclipse.cdt.internal.ui.CView.SharedFilter" isEnabled="false"/>
@@ -581,108 +572,34 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(Coordinator)/Application/Source/MApp.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(End Device)/Application/Source/MApp.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(Coordinator)/Application/Source/MApp.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(End Device)/MacPhy/Interface/NwkMacInterface.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(End Device)/Application/Configure/ApplicationConf.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(Coordinator)/Application/Configure/ApplicationConf.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(Coordinator)/Application/Source/MApp.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(End Device)/Application/Source/MApp.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(End Device)/Application/Source/MApp.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(End Device)/Application/Configure/ApplicationConf.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(Coordinator)/Application/Configure/ApplicationConf.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(Coordinator)/Application/Source/MApp.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(Coordinator)/Application/Source/MApp.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(End Device)/Application/Source/MApp.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai1(End Device)/MacPhy/Interface/NwkMacInterface.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai2(Coordinator)/Application/Source/MApp.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai2(Coordinator)/Application/Configure/ApplicationConf.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai2(Coordinator)/Application/Source/MApp.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai2(End Device)/Application/Configure/ApplicationConf.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai2(End Device)/Application/Source/MApp.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kadai2(End Device)/Application/Source/MApp.h"/>
 </editors>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="33360" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="31944" y="85"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="34929" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="31944" y="85"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="34769" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="31944" y="85"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="34769" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="32638" y="57"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="34707" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="33220" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="34707" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="33220" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="32029" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="29530" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="30253" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="29530" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="30264" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="33279" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="30604" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="33279" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="29880" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="34929" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="31944" y="85"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="34929" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="31944" y="85"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="34929" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="0">
-<position info="not_deleted" x="30675" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="28946" y="0"/>
-</item>
 <item historyLabel="NwkMacInterface.h" index="2">
 <position info="not_deleted" x="8655" y="19"/>
 </item>
-<item historyLabel="MApp.c" index="1">
+<item historyLabel="MApp.c" index="0">
 <position info="not_deleted" x="28946" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="1">
+<position info="not_deleted" x="30675" y="0"/>
 </item>
 <item historyLabel="ApplicationConf.h" index="3">
 <position info="not_deleted" x="1862" y="0"/>
@@ -694,52 +611,136 @@
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="MApp.c" index="6">
-<position info="not_deleted" x="30675" y="0"/>
+<position info="not_deleted" x="28881" y="0"/>
 </item>
 <item historyLabel="MApp.h" index="7">
 <position info="not_deleted" x="2021" y="0"/>
 </item>
-<item historyLabel="NwkMacInterface.h" index="8">
-<position info="not_deleted" x="8655" y="19"/>
-</item>
-<item historyLabel="MApp.c" index="6">
-<position info="not_deleted" x="30675" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="28946" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="6">
-<position info="not_deleted" x="30675" y="0"/>
+<item historyLabel="MApp.h" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="MApp.h" index="7">
 <position info="not_deleted" x="2021" y="0"/>
 </item>
-<item historyLabel="MApp.c" index="6">
+<item historyLabel="MApp.c" index="1">
 <position info="not_deleted" x="30675" y="0"/>
+</item>
+<item historyLabel="MApp.h" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="28946" y="0"/>
-</item>
-<item historyLabel="MApp.c" index="6">
 <position info="not_deleted" x="30675" y="0"/>
 </item>
-<item historyLabel="MApp.h" index="7">
+<item historyLabel="ApplicationConf.h" index="4">
+<position info="not_deleted" x="438" y="0"/>
+</item>
+<item historyLabel="MApp.h" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="1">
+<position info="not_deleted" x="2055" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="6">
+<position info="not_deleted" x="28881" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="1">
+<position info="not_deleted" x="2055" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="6">
+<position info="not_deleted" x="29729" y="326"/>
+</item>
+<item historyLabel="ApplicationConf.h" index="8">
+<position info="not_deleted" x="1862" y="0"/>
+</item>
+<item historyLabel="ApplicationConf.h" index="9">
+<position info="not_deleted" x="438" y="0"/>
+</item>
+<item historyLabel="MApp.h" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="11">
+<position info="not_deleted" x="2055" y="0"/>
+</item>
+<item historyLabel="MApp.h" index="12">
 <position info="not_deleted" x="2021" y="0"/>
 </item>
+<item historyLabel="ApplicationConf.h" index="9">
+<position info="not_deleted" x="438" y="0"/>
+</item>
 <item historyLabel="MApp.c" index="6">
-<position info="not_deleted" x="30675" y="0"/>
+<position info="not_deleted" x="29729" y="326"/>
 </item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="28946" y="0"/>
+<item historyLabel="ApplicationConf.h" index="8">
+<position info="not_deleted" x="1862" y="0"/>
 </item>
-<item historyLabel="NwkMacInterface.h" index="8">
-<position info="not_deleted" x="8655" y="19"/>
+<item historyLabel="MApp.h" index="10">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MApp.c" index="1">
-<position info="not_deleted" x="28946" y="0"/>
+<item historyLabel="MApp.h" index="12">
+<position info="not_deleted" x="2021" y="0"/>
 </item>
-<item active="true" historyLabel="MApp.c" index="6">
-<position info="not_deleted" x="30675" y="0"/>
+<item historyLabel="MApp.c" index="11">
+<position info="not_deleted" x="2055" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="13">
+<position info="not_deleted" x="446" y="0"/>
+</item>
+<item historyLabel="ApplicationConf.h" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MApp.h" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ApplicationConf.h" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MApp.h" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="13">
+<position info="not_deleted" x="446" y="0"/>
+</item>
+<item historyLabel="ApplicationConf.h" index="14">
+<position info="not_deleted" x="1472" y="0"/>
+</item>
+<item historyLabel="ApplicationConf.h" index="16">
+<position info="not_deleted" x="1076" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="13">
+<position info="not_deleted" x="446" y="0"/>
+</item>
+<item historyLabel="ApplicationConf.h" index="14">
+<position info="not_deleted" x="2635" y="0"/>
+</item>
+<item historyLabel="ApplicationConf.h" index="16">
+<position info="not_deleted" x="2635" y="0"/>
+</item>
+<item historyLabel="ApplicationConf.h" index="14">
+<position info="not_deleted" x="2635" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="13">
+<position info="not_deleted" x="446" y="0"/>
+</item>
+<item historyLabel="MApp.h" index="15">
+<position info="not_deleted" x="3504" y="0"/>
+</item>
+<item historyLabel="MApp.h" index="18">
+<position info="not_deleted" x="2019" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="17">
+<position info="not_deleted" x="14641" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="13">
+<position info="not_deleted" x="446" y="0"/>
+</item>
+<item historyLabel="MApp.c" index="17">
+<position info="not_deleted" x="14641" y="0"/>
+</item>
+<item active="true" historyLabel="MApp.c" index="13">
+<position info="not_deleted" x="446" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -747,6 +748,10 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1ed56e2"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -754,10 +759,29 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.h" tooltip="kadai2(End Device)/Application/Source/MApp.h">
+<persistable path="/kadai2(End Device)/Application/Source/MApp.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.c" tooltip="kadai2(End Device)/Application/Source/MApp.c">
+<persistable path="/kadai2(End Device)/Application/Source/MApp.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ApplicationConf.h" tooltip="kadai2(End Device)/Application/Configure/ApplicationConf.h">
+<persistable path="/kadai2(End Device)/Application/Configure/ApplicationConf.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.h" tooltip="kadai2(Coordinator)/Application/Source/MApp.h">
+<persistable path="/kadai2(Coordinator)/Application/Source/MApp.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ApplicationConf.h" tooltip="kadai2(Coordinator)/Application/Configure/ApplicationConf.h">
+<persistable path="/kadai2(Coordinator)/Application/Configure/ApplicationConf.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MApp.c" tooltip="kadai2(Coordinator)/Application/Source/MApp.c">
+<persistable path="/kadai2(Coordinator)/Application/Source/MApp.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="NwkMacInterface.h" tooltip="kadai1(End Device)/MacPhy/Interface/NwkMacInterface.h">
 <persistable path="/kadai1(End Device)/MacPhy/Interface/NwkMacInterface.h"/>
 </file>
@@ -784,15 +808,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="kadai3/Sources/main.c">
 <persistable path="/kadai3/Sources/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="kadai2/Sources/main.c">
-<persistable path="/kadai2/Sources/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="kadai1/Sources/main.c">
-<persistable path="/kadai1/Sources/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="project/Sources/main.c">
-<persistable path="/project/Sources/main.c"/>
 </file>
 </mruList>
 </workbench>

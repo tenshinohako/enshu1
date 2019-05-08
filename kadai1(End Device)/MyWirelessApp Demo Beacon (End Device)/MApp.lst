@@ -1307,10 +1307,10 @@ ANSI-C/cC++ Compiler for HC08 V-5.0.41 Build 12319, Nov 15 2012
   0003 a601     [2]             LDA   #1
   0005 95       [2]             TSX   
   0006 f7       [2]             STA   ,X
-  706:    //(void)App_SetMacPib((uint8_t)gMPibRxOnWhenIdle_c, &pValue);
-  707:    (void)App_SetMacPib((uint8_t)0x52, &pValue);
+  706:    (void)App_SetMacPib((uint8_t)0x52, &pValue);
   0007 a652     [2]             LDA   #82
   0009 ac000000 [8]             CALL  App_SetMacPib
+  707:    
   708:    /* If the coordinator assigns a short address of 0xfffe then,
   709:       that means we must use our own extended address in all
   710:       communications with the coordinator. Otherwise, we use
@@ -1377,19 +1377,19 @@ ANSI-C/cC++ Compiler for HC08 V-5.0.41 Build 12319, Nov 15 2012
   736:  static uint8_t App_SetMacPib(uint8_t attribute, uint8_t *pValue){
   0000 87       [2]             PSHA  
   0001 a7f1     [2]             AIS   #-15
-  737:  	mlmeMessage_t mlmeSet;
+  737:    mlmeMessage_t mlmeSet;
   738:  	
-  739:  	/* Create and execute the Set request */
-  740:  	mlmeSet.msgType = gMlmeSetReq_c;
+  739:    /* Create and execute the Set request */
+  740:    mlmeSet.msgType = gMlmeSetReq_c;
   0003 a609     [2]             LDA   #9
   0005 9ee701   [4]             STA   1,SP
-  741:  	mlmeSet.msgData.setReq.pibAttribute = attribute;
+  741:    mlmeSet.msgData.setReq.pibAttribute = attribute;
   0008 9ee610   [4]             LDA   16,SP
   000b 9ee702   [4]             STA   2,SP
-  742:  	mlmeSet.msgData.setReq.pibAttributeValue = pValue;
+  742:    mlmeSet.msgData.setReq.pibAttributeValue = pValue;
   000e 9eff03   [5]             STHX  3,SP
   743:  	
-  744:  	return MSG_Send(NWK_MLME, &mlmeSet);
+  744:    return MSG_Send(NWK_MLME, &mlmeSet);
   0011 95       [2]             TSX   
   0012 ac000000 [8]             CALL  NWK_MLME_SapHandler
   745:  }

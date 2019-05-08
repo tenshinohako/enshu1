@@ -13,16 +13,16 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="52" key="selection"/>
+		<item value="case state" key="selection"/>
 		<list key="findhistory">
+			<item value="case state"/>
+			<item value="App_Handle"/>
 			<item value="52"/>
 			<item value="App_Transmit"/>
 			<item value="App_Trasmit"/>
 			<item value="PIB"/>
 			<item value="macRxOn"/>
 			<item value="MAC"/>
-			<item value="MACPIB"/>
-			<item value="TransmitUart"/>
 		</list>
 		<list key="replacehistory">
 		</list>
